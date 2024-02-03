@@ -48,5 +48,5 @@ In Part 1, I explore the data and start to feature engineer to help understand, 
 
 - [Bayes Putting for this tourney](https://www.pymc.io/projects/examples/en/latest/case_studies/putting_workflow.html#id1)
 
-- [Do Birdies follow Bogies?]
-      - previous shot future shot relationship? make a model
+- [Do Birdies follow Bogies?]()
+  - previous shot future shot relationship? make a model
