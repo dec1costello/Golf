@@ -18,6 +18,7 @@ Welcome to my analysis of the **2011 TOUR Championship**. With an interest in sp
 5. [Part 5, Approach Shots]()
 6. [Part 6, Acc Distributions]()
 7. [Part 7, Mapping Viz]()
+8. Bayes
 
 
 ## **Part 1, [EDA](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/EDA.ipynb)**
@@ -41,3 +42,14 @@ In Part 1, I explore the data and start to feature engineer to help understand, 
 </tr>
 </tbody>
 </table>
+
+## **TODO**
+- [Rough vs Fairway]()
+
+- [Bayes Putting for this tourney](https://www.pymc.io/projects/examples/en/latest/case_studies/putting_workflow.html#id1)
+
+- [Golf Sale DataSet](https://catalog.data.gov/dataset/louisville-metro-ky-parks-golf-sales-detail)
+
+- [birdies follwong bogies?]
+
+- previos shot future shot relationship?
