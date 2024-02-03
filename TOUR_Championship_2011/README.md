@@ -3,7 +3,7 @@
 
 ## **Overview**
 
-Welcome to my analysis of the **2011 TOUR Championship**. With an interest in sports analytics, the primary aspiration is to contribute meaningful insights to the golf community. To get a better feel for the visual details, I encourage you to check out the interactive visuals on  [NBViewer](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/).
+Welcome to my analysis of the **2011 TOUR Championship**. With an interest in sports analytics, the primary aspiration is to contribute meaningful insights to the golf community. To get a better feel for the visual details, I encourage you to check out the interactive visuals on  [NBViewer!](https://nbviewer.org/github/dec1costello/Golf/tree/main/TOUR_Championship_2011/)
 
 ## **Notes**
 
@@ -11,12 +11,13 @@ Welcome to my analysis of the **2011 TOUR Championship**. With an interest in sp
 
 ## **Table of Contents**
 
-1. [Part 1, EDA](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-1/Distance-Predictor-Part-1.ipynb)
-2. [Part 2, SG per Round](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-2/Distance-Predictor-Part-2.ipynb)
-3. [Part 3, SG per Hole](https://nbviewer.org/github/dec1costello/Baseball/tree/main/Distance-Predictor/Distance-Predictor-Part-3/)
+1. [Part 1, EDA](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/EDA.ipynb)
+2. [Part 2, SG per Round](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/StrokesGainedPerRound.ipynb)
+3. [Part 3, SG per Hole per Round](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/ImprovedStrokesGainedPerRoundPerHole.ipynb)
 4. [Part 4, SG per Player]()
-5. [Part 5, Approach Shots](https://nbviewer.org/github/dec1costello/Baseball/tree/main/Distance-Predictor/Distance-Predictor-Part-4/)
-6. [Part 6, Acc Distributions](https://nbviewer.org/github/dec1costello/Baseball/tree/main/Distance-Predictor/Distance-Predictor-Part-5/)
+5. [Part 5, Approach Shots]()
+6. [Part 6, Acc Distributions]()
+7. [Part 7, Mapping Viz]()
 
 
 ## **Part 1, [EDA](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-1/Distance-Predictor-Part-1.ipynb)**
