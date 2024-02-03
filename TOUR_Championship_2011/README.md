@@ -14,9 +14,9 @@ Welcome to my analysis of the **2011 TOUR Championship**. With an interest in sp
 1. [Part 1, EDA](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-1/Distance-Predictor-Part-1.ipynb)
 2. [Part 2, SG per Round](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-2/Distance-Predictor-Part-2.ipynb)
 3. [Part 3, SG per Hole](https://nbviewer.org/github/dec1costello/Baseball/tree/main/Distance-Predictor/Distance-Predictor-Part-3/)
-4. [Part 4, SG per player]()
-5. [Part 5, Approach shots](https://nbviewer.org/github/dec1costello/Baseball/tree/main/Distance-Predictor/Distance-Predictor-Part-4/)
-6. [Part 6, Acc distributions](https://nbviewer.org/github/dec1costello/Baseball/tree/main/Distance-Predictor/Distance-Predictor-Part-5/)
+4. [Part 4, SG per Player]()
+5. [Part 5, Approach Shots](https://nbviewer.org/github/dec1costello/Baseball/tree/main/Distance-Predictor/Distance-Predictor-Part-4/)
+6. [Part 6, Acc Distributions](https://nbviewer.org/github/dec1costello/Baseball/tree/main/Distance-Predictor/Distance-Predictor-Part-5/)
 
 
 ## **Part 1, [EDA](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-1/Distance-Predictor-Part-1.ipynb)**
