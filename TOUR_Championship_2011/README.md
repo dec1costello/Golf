@@ -18,7 +18,7 @@ Welcome to my analysis of the **2011 TOUR Championship**. With an interest in sp
 5. [Part 5, Approach Shots]()
 6. [Part 6, Acc Distributions]()
 7. [Part 7, Mapping Viz]()
-8. Bayes
+8. Bayes (use all above dists and eda for a pymc model)
 
 
 ## **Part 1, [EDA](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/EDA.ipynb)**
