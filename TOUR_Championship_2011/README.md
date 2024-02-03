@@ -31,12 +31,41 @@ In Part 1, I explore the data and start to feature engineer to help understand, 
   <tr>
     <td>
       <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-1.ipynb">
-        <img src="https://github.com/dec1costello/Golf/assets/79241861/c0c4d275-2596-49ee-b515-b8794c7bead9" />
+        <img src="https://github.com/dec1costello/Golf/assets/79241861/33e03408-c0f8-485f-88b0-03f1ebc9f143" />
       </a>
     </td>
+</tr>
+</tbody>
+</table>
+
+## **Part 2, [SG per Round](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/StrokesGainedPerRound.ipynb)**
+
+In Part 2, I explore the distribution of Strokes Gained for each round of the Championship. Round 3 seemed to be the most chaotic, as there was a significant variance in player performance throughout the day.
+
+<table>
+
+<tbody>
+  <tr>
     <td>
-      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-2.ipynb">
-        <img src="https://github.com/dec1costello/Golf/assets/79241861/c0c4d275-2596-49ee-b515-b8794c7bead9" alt="WOBA Heatmap" />
+      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-1.ipynb">
+        <img src="https://github.com/dec1costello/Golf/assets/79241861/09ac3622-d0b1-4f07-b34d-cc907db7a4d5" />
+      </a>
+    </td>
+</tr>
+</tbody>
+</table>
+
+## **Part 3, [SG per Hole per Round](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/ImprovedStrokesGainedPerRoundPerHole.ipynb)**
+
+In Part 3, I explore the distribution of Strokes Gained for each hole of each round of the Championship.
+
+<table>
+
+<tbody>
+  <tr>
+    <td>
+      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-1.ipynb">
+        <img src="https://github.com/dec1costello/Golf/assets/79241861/f2c315ab-df87-4b4f-ac78-8ff09e71e66a" />
       </a>
     </td>
 </tr>
