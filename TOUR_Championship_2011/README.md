@@ -20,7 +20,7 @@ Welcome to my analysis of the **2011 TOUR Championship**. With an interest in sp
 7. [Part 7, Mapping Viz]()
 
 
-## **Part 1, [EDA](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-1/Distance-Predictor-Part-1.ipynb)**
+## **Part 1, [EDA](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/EDA.ipynb)**
 
 In Part 1, I explore the data and start to feature engineer to help understand, clean, and refine the dataset. It guides model choice and assumption validation, while also revealing insights through visualization. By addressing data quality and understanding patterns early, here I establish a strong foundation for the rest of my project.
 
