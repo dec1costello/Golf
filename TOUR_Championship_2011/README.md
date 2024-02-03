@@ -1,1 +1,42 @@
-lol
+# **2011 TOUR Championship**
+*Author: Declan Costello*
+
+## **Overview**
+
+Welcome to my analysis of the **2011 TOUR Championship**. With an interest in sports analytics, the primary aspiration is to contribute meaningful insights to the golf community. To get a better feel for the visual details, I encourage you to check out the interactive visuals on  [NBViewer](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/).
+
+## **Notes**
+
+- The dataset only contains four rounds of golf from the 30 players who participated.
+
+## **Table of Contents**
+
+1. [Part 1, EDA](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-1/Distance-Predictor-Part-1.ipynb)
+2. [Part 2, SG per Round](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-2/Distance-Predictor-Part-2.ipynb)
+3. [Part 3, SG per Hole](https://nbviewer.org/github/dec1costello/Baseball/tree/main/Distance-Predictor/Distance-Predictor-Part-3/)
+4. [Part 4, SG per player]()
+5. [Part 5, Approach shots](https://nbviewer.org/github/dec1costello/Baseball/tree/main/Distance-Predictor/Distance-Predictor-Part-4/)
+6. [Part 6, Acc distributions](https://nbviewer.org/github/dec1costello/Baseball/tree/main/Distance-Predictor/Distance-Predictor-Part-5/)
+
+
+## **Part 1, [EDA](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-1/Distance-Predictor-Part-1.ipynb)**
+
+In Part 1, I explore the data and start to feature engineer to help understand, clean, and refine the dataset. It guides model choice and assumption validation, while also revealing insights through visualization. By addressing data quality and understanding patterns early, here I establish a strong foundation for the rest of my project.
+
+<table>
+
+<tbody>
+  <tr>
+    <td>
+      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-1.ipynb">
+        <img src="https://github.com/dec1costello/Golf/assets/79241861/c0c4d275-2596-49ee-b515-b8794c7bead9" />
+      </a>
+    </td>
+    <td>
+      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-2.ipynb">
+        <img src="https://github.com/dec1costello/Golf/assets/79241861/c0c4d275-2596-49ee-b515-b8794c7bead9" alt="WOBA Heatmap" />
+      </a>
+    </td>
+</tr>
+</tbody>
+</table>
