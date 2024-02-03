@@ -48,8 +48,5 @@ In Part 1, I explore the data and start to feature engineer to help understand, 
 
 - [Bayes Putting for this tourney](https://www.pymc.io/projects/examples/en/latest/case_studies/putting_workflow.html#id1)
 
-- [Golf Sale DataSet](https://catalog.data.gov/dataset/louisville-metro-ky-parks-golf-sales-detail)
-
-- [birdies follwong bogies?]
-
-- previos shot future shot relationship?
+- [Do Birdies follow Bogies?]
+      - previous shot future shot relationship? make a model
