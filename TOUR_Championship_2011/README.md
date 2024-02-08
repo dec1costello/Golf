@@ -3,7 +3,7 @@
 
 ## **Overview**
 
-Welcome to my analysis of the **2011 TOUR Championship**. With an interest in sports analytics, the primary aspiration is to contribute meaningful insights to the golf community. To get a better feel for the visual details, I encourage you to check out the interactive visuals on  [NBViewer!](https://nbviewer.org/github/dec1costello/Golf/tree/main/TOUR_Championship_2011/)
+Welcome to my analysis of the **2011 TOUR Championship** at [East Lake Golf Club](https://www.eastlakegolfclub.com/course/). With an interest in sports analytics, the primary aspiration is to contribute meaningful insights to the golf community. To get a better feel for the visual details, I encourage you to check out the interactive visuals on  [NBViewer!](https://nbviewer.org/github/dec1costello/Golf/tree/main/TOUR_Championship_2011/)
 
 ## **Notes**
 
