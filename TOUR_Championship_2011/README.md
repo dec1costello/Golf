@@ -82,7 +82,7 @@ In Part 4, I explore the distribution of Strokes Gained for each hole of each ro
   <tr>
     <td>
       <a href="https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb">
-        <img src="(https://github.com/dec1costello/Golf/assets/79241861/2896a5b2-46ee-4387-898e-198a7276e302" />
+        <img src="https://github.com/dec1costello/Golf/assets/79241861/2896a5b2-46ee-4387-898e-198a7276e302" />
       </a>
     </td>
 </tr>
