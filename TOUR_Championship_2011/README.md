@@ -72,7 +72,7 @@ In Part 3, I explore the distribution of Strokes Gained for each hole of each ro
 
 ## **Part 4, [SG vs Driving Distance & Accuracy](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb)**
 
-In Part 4, I explore the distribution of Strokes Gained for each hole of each round of the Championship.
+In Part 4, I explore the distribution of Strokes Gained vs  Driving Distance & Accuracy for each hole of each round of the Championship. Happy to say my analysis aligns with [Data Golf's Course Fit Tool](https://datagolf.com/course-fit-tool).
 
 <table>
 
