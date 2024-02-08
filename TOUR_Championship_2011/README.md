@@ -16,9 +16,8 @@ Welcome to my analysis of the **2011 TOUR Championship**. With an interest in sp
 3. [Part 3, SG per Hole per Round](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/ImprovedStrokesGainedPerRoundPerHole.ipynb)
 4. [Part 4,SG vs Driving Distance & Accuracy](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb)
 5. [Part 5, Approach Shots]() ; lies/greens in reg/ distnace vs expected sg - L vs R, look at dog legs
-6. [Part 6, Acc Distributions]()
-7. [Part 7, Mapping Viz]()
-8. Bayes (use all above dists and eda for a pymc model)
+6. [Part 6, Mapping Viz]()
+7. Bayes (use all above dists and eda for a pymc model)
 
 
 ## **Part 1, [EDA](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/EDA.ipynb)**
