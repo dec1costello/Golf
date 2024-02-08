@@ -14,7 +14,7 @@ Welcome to my analysis of the **2011 TOUR Championship**. With an interest in sp
 1. [Part 1, EDA](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/EDA.ipynb)
 2. [Part 2, SG per Round](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/StrokesGainedPerRound.ipynb)
 3. [Part 3, SG per Hole per Round](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/ImprovedStrokesGainedPerRoundPerHole.ipynb)
-4. [Part 4, SG per Player]()
+4. [Part 4,SG vs Driving Distance & Accuracy](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb)
 5. [Part 5, Approach Shots]() ; lies/greens in reg/ distnace vs expected sg - L vs R, look at dog legs
 6. [Part 6, Acc Distributions]()
 7. [Part 7, Mapping Viz]()
@@ -71,6 +71,24 @@ In Part 3, I explore the distribution of Strokes Gained for each hole of each ro
 </tr>
 </tbody>
 </table>
+
+## **Part 4, [SG vs Driving Distance & Accuracy](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb)**
+
+In Part 4, I explore the distribution of Strokes Gained for each hole of each round of the Championship.
+
+<table>
+
+<tbody>
+  <tr>
+    <td>
+      <a href="https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb">
+        <img src="(https://github.com/dec1costello/Golf/assets/79241861/2896a5b2-46ee-4387-898e-198a7276e302" />
+      </a>
+    </td>
+</tr>
+</tbody>
+</table>
+
 
 ## **TODO**
 - [Rough vs Fairway]()
