@@ -80,7 +80,7 @@ In Part 4, I explore the distribution of Strokes Gained vs  Driving Distance & A
   <tr>
     <td>
       <a href="https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb">
-        <img src="https://github.com/dec1costello/Golf/assets/79241861/157b2d20-f4ac-47a3-bb50-cac80a883442" />
+        <img src="https://github.com/dec1costello/Golf/assets/79241861/d08949ca-cf85-450b-b1a8-1054115a4781" />
       </a>
     </td>
 </tr>
