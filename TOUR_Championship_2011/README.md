@@ -15,7 +15,7 @@ Welcome to my analysis of the **2011 TOUR Championship** at [East Lake Golf Club
 2. [Part 2, SG per Round](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/StrokesGainedPerRound.ipynb)
 3. [Part 3, SG per Hole per Round](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/ImprovedStrokesGainedPerRoundPerHole.ipynb)
 4. [Part 4, SG vs Driving Distance & Accuracy](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb)
-5. [Part 5, Stack Model Strokes In]() ; lies/greens in reg/ distnace vs expected sg - L vs R, look at dog legs
+5. [Part 5, Distance to Pin vs Strokes to Hole Out](https://github.com/dec1costello/Golf/blob/main/TOUR_Championship_2011/ApproachShots.ipynb)
 6. Bayes, approach shot, how close to hole, hiearchal model
 
 
@@ -72,7 +72,7 @@ In Part 3, I explore the distribution of Strokes Gained for each hole of each ro
 
 ## **Part 4, [SG vs Driving Distance & Accuracy](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb)**
 
-In Part 4, I explore the distribution of Strokes Gained vs  Driving Distance & Accuracy for each hole of each round of the Championship. Happy to say my analysis aligns with [Data Golf's Course Fit Tool](https://datagolf.com/course-fit-tool) for East Lake Golf Club.
+In Part 4, I explore the distribution of Strokes Gained vs Driving Distance & Accuracy for each hole of each round of the Championship. Happy to say my analysis aligns with [Data Golf's Course Fit Tool](https://datagolf.com/course-fit-tool) for East Lake Golf Club.
 
 <table>
 
@@ -81,6 +81,23 @@ In Part 4, I explore the distribution of Strokes Gained vs  Driving Distance & A
     <td>
       <a href="https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb">
         <img src="https://github.com/dec1costello/Golf/assets/79241861/d08949ca-cf85-450b-b1a8-1054115a4781" />
+      </a>
+    </td>
+</tr>
+</tbody>
+</table>
+
+## **Part 5, [Distance to Pin vs Strokes to Hole Out](https://github.com/dec1costello/Golf/blob/main/TOUR_Championship_2011/ApproachShots.ipynb)**
+
+In Part 5, I explore the relationship bewteen Distance to the Pin & Lie vs Strokes to hole out at the Tour Championship.
+
+<table>
+
+<tbody>
+  <tr>
+    <td>
+      <a href="https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb">
+        <img src="https://github.com/dec1costello/Golf/assets/79241861/5f10c32c-7854-47ad-b78e-fab15c3450d1" />
       </a>
     </td>
 </tr>
