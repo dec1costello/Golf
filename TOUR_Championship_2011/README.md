@@ -89,7 +89,7 @@ In Part 4, I explore the distribution of Strokes Gained vs Driving Distance & Ac
 
 ## **Part 5, [Distance to Pin vs Strokes to Hole Out](https://github.com/dec1costello/Golf/blob/main/TOUR_Championship_2011/ApproachShots.ipynb)**
 
-In Part 5, I explore the relationship bewteen Distance to the Pin & Lie vs Strokes to hole out at the Tour Championship.
+In Part 5, I explore the relationship between Distance to the Pin & Lie vs Strokes to hole out at the Tour Championship.
 
 <table>
 
