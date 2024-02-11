@@ -109,4 +109,5 @@ In Part 5, I explore the relationship between Distance to the Pin & Lie vs Strok
 - optuna
 - stack
 - player and holes plottable, greens in reg
+- bayes, distance to hole
 - streamlit
