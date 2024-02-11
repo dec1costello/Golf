@@ -104,11 +104,9 @@ In Part 5, I explore the relationship between Distance to the Pin & Lie vs Strok
 </tbody>
 </table>
 
-
 ## **TODO**
-- [Rough vs Fairway]()
-
-- [Bayes Putting for this tourney](https://www.pymc.io/projects/examples/en/latest/case_studies/putting_workflow.html#id1)
-
-- [Do Birdies follow Bogies?]()
-  - previous shot future shot relationship? make a model
+- lazy predict
+- optuna
+- stack
+- player and holes plottable, greens in reg
+- streamlit
