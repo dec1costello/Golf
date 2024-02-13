@@ -128,3 +128,4 @@ graph TB
 - player and holes plottable, greens in reg
 - bayes, distance to hole
 - streamlit
+- after bayes, mock https://datagolf.com/approach-skill
