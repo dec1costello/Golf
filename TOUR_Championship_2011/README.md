@@ -100,34 +100,30 @@ graph TB
       NumericTransformer --> RobustScaler;
       RobustScaler --> Stratify;
 
-      Stratify-->XGBRegressor;
+      Stratify--> GradientBoostingRegressor;
       Stratify-->RandomForestRegressor;
       Stratify-->MLPRegressor;
       Stratify-->GradientBoostingRegressor;
-      XGBRegressor-->VotingRegressor;
-      RandomForestRegressor-->VotingRegressor;
-      MLPRegressor-->VotingRegressor;
-      GradientBoostingRegressor-->VotingRegressor;
+      Stratify--> AdaBoostRegressor;
+      Stratify--> LGBMRegressor;
 
-      VotingRegressor --> Prediction;
+      LGBMRegressor-->GBR_StackingRegressor;
+      AdaBoostRegressor-->GBR_StackingRegressor;
+      GradientBoostingRegressor-->GBR_StackingRegressor;
+      RandomForestRegressor-->GBR_StackingRegressor;
+      MLPRegressor-->GBR_StackingRegressor;
+
+      GBR_StackingRegressor --> Prediction;
 ```
 
-<table>
-<tbody>
-  <tr>
-    <td>
-      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-5.ipynb">
-        <img src="https://github.com/dec1costello/Baseball/assets/79241861/8f8cfd75-0b0e-42fd-a875-fa9cd5f295f5" alt="Event Scatter" />
-      </a>
-    </td>
-</tr>
-</tbody>
-</table>
+<div align="center">
+  <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-5.ipynb">
+    <img src="https://github.com/dec1costello/Golf/assets/79241861/3dd3d7af-3b99-487d-a163-d064d8ddcd38" alt="Event Scatter" style="width:70%">
+  </a>
+</div>
+
 
 ## **TODO**
-- lazy predict
-- optuna
-- stack
 - player and holes plottable, greens in reg
 - bayes, distance to hole
 - streamlit
