@@ -8,10 +8,10 @@
     <li><a href="#Overview">Overview</a></li>
     <li><a href="#EDA">EDA</a></li>
     <li><a href="#SG-per-Round">SG per Round</a></li>
-    <li><a href="#contributing">SG per Hole per Roun</a></li>
-    <li><a href="#license">SG vs Driving Distance & Accuracy</a></li>
-    <li><a href="#contact">Distance to Pin vs Strokes to Hole Out</a></li>
-    <li><a href="#acknowledgments">Bayes</a></li>
+    <li><a href="#SG-per-Hole-per-Round">SG per Hole per Roun</a></li>
+    <li><a href="#SG-vs-Driving-Distance-&-Accuracy">SG vs Driving Distance & Accuracy</a></li>
+    <li><a href="#Distance-to-Pin-vs-Strokes-to-Hole-Out">Distance to Pin vs Strokes to Hole Out</a></li>
+    <li><a href="#Bayes">Bayes</a></li>
   </ol>
 </details>
 
@@ -53,7 +53,7 @@ In Part 2, I explore the distribution of Strokes Gained for each round of the Ch
 </tbody>
 </table>
 
-## **Part 3, [SG per Hole per Round](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/ImprovedStrokesGainedPerRoundPerHole.ipynb)**
+## [SG per Hole per Round](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/ImprovedStrokesGainedPerRoundPerHole.ipynb)**
 
 In Part 3, I explore the distribution of Strokes Gained for each hole of each round of the Championship.
 
