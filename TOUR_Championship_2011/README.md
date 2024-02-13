@@ -87,7 +87,7 @@ In Part 4, I explore the distribution of Strokes Gained vs Driving Distance & Ac
 </tbody>
 </table>
 
-## **Part 5, [Distance to Pin vs Strokes to Hole Out](https://github.com/dec1costello/Golf/blob/main/TOUR_Championship_2011/ApproachShots.ipynb)**
+## **Part 5, [Distance to Pin vs Strokes to Hole Out](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb)**
 
 In Part 5, I explore the relationship between Distance to the Pin & Lie vs Strokes to hole out at the Tour Championship. I Ensemble the top  preforming models together using a [Stack](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.StackingRegressor.html) to minimize [Bias](https://towardsdatascience.com/a-quickstart-guide-to-uprooting-model-bias-f4465c8e84bc) and [Variance](https://x.com/akshay_pachaar/status/1703757251474063861?s=20). This iterative process maximized predictive accuracy of Expected Strokes Gained(xSG)
 
@@ -117,7 +117,7 @@ graph TB
 ```
 
 <div align="center">
-  <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-5.ipynb">
+  <a href="https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb">
     <img src="https://github.com/dec1costello/Golf/assets/79241861/831a59c3-93fa-4717-84e5-34c8178a910c" alt="Event Scatter" style="width:70%">
   </a>
 </div>
