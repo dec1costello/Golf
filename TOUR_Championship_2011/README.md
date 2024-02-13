@@ -89,15 +89,35 @@ In Part 4, I explore the distribution of Strokes Gained vs Driving Distance & Ac
 
 ## **Part 5, [Distance to Pin vs Strokes to Hole Out](https://github.com/dec1costello/Golf/blob/main/TOUR_Championship_2011/ApproachShots.ipynb)**
 
-In Part 5, I explore the relationship between Distance to the Pin & Lie vs Strokes to hole out at the Tour Championship.
+In Part 5, I explore the relationship between Distance to the Pin & Lie vs Strokes to hole out at the Tour Championship. I Ensemble the top  preforming models together using a [Stack](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.StackingRegressor.html) to minimize [Bias](https://towardsdatascience.com/a-quickstart-guide-to-uprooting-model-bias-f4465c8e84bc) and [Variance](https://x.com/akshay_pachaar/status/1703757251474063861?s=20). This iterative process maximized predictive accuracy of Expected Strokes Gained(xSG)
+
+```mermaid
+graph TB
+      FeatureEngineeredData --> CategoricalTransformer;
+      FeatureEngineeredData --> NumericTransformer;
+      CategoricalTransformer --> OneHotEncoder;
+      OneHotEncoder --> Stratify;
+      NumericTransformer --> RobustScaler;
+      RobustScaler --> Stratify;
+
+      Stratify-->XGBRegressor;
+      Stratify-->RandomForestRegressor;
+      Stratify-->MLPRegressor;
+      Stratify-->GradientBoostingRegressor;
+      XGBRegressor-->VotingRegressor;
+      RandomForestRegressor-->VotingRegressor;
+      MLPRegressor-->VotingRegressor;
+      GradientBoostingRegressor-->VotingRegressor;
+
+      VotingRegressor --> Prediction;
+```
 
 <table>
-
 <tbody>
   <tr>
     <td>
-      <a href="https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb">
-        <img src="https://github.com/dec1costello/Golf/assets/79241861/5f10c32c-7854-47ad-b78e-fab15c3450d1" />
+      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-5.ipynb">
+        <img src="https://github.com/dec1costello/Baseball/assets/79241861/8f8cfd75-0b0e-42fd-a875-fa9cd5f295f5" alt="Event Scatter" />
       </a>
     </td>
 </tr>
