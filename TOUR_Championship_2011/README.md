@@ -1,3 +1,6 @@
+<a name="readme-top"></a>
+
+
 # **2011 TOUR Championship**
 *Author: Declan Costello*
 
@@ -129,3 +132,15 @@ graph TB
 - bayes, distance to hole
 - streamlit
 - after bayes, mock https://datagolf.com/approach-skill
+- 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
