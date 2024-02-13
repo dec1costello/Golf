@@ -118,7 +118,7 @@ graph TB
 
 <div align="center">
   <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-5.ipynb">
-    <img src="https://github.com/dec1costello/Golf/assets/79241861/3dd3d7af-3b99-487d-a163-d064d8ddcd38" alt="Event Scatter" style="width:70%">
+    <img src="https://github.com/dec1costello/Golf/assets/79241861/831a59c3-93fa-4717-84e5-34c8178a910c" alt="Event Scatter" style="width:70%">
   </a>
 </div>
 
