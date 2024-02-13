@@ -38,6 +38,7 @@ In Part 1, I explore the data and start to feature engineer to help understand, 
 </tr>
 </tbody>
 </table>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## [SG per Round](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/StrokesGainedPerRound.ipynb)
 
@@ -55,6 +56,7 @@ In Part 2, I explore the distribution of Strokes Gained for each round of the Ch
 </tr>
 </tbody>
 </table>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## [SG per Hole per Round](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/ImprovedStrokesGainedPerRoundPerHole.ipynb)
 
@@ -72,6 +74,7 @@ In Part 3, I explore the distribution of Strokes Gained for each hole of each ro
 </tr>
 </tbody>
 </table>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## [SG vs Driving Distance and Accuracy](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb)
 
@@ -89,6 +92,7 @@ In Part 4, I explore the distribution of Strokes Gained vs Driving Distance & Ac
 </tr>
 </tbody>
 </table>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## [Distance to Pin vs Strokes to Hole Out](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb)
 
@@ -125,22 +129,12 @@ graph TB
     <img src="https://github.com/dec1costello/Golf/assets/79241861/831a59c3-93fa-4717-84e5-34c8178a910c" alt="Event Scatter" style="width:70%">
   </a>
 </div>
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## **TODO**
 - player and holes plottable, greens in reg
 - bayes, distance to hole
 - streamlit
 - after bayes, mock https://datagolf.com/approach-skill
-- 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
