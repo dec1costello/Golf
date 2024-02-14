@@ -130,11 +130,6 @@ graph TB
 </div>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
 <!-- ROADMAP -->
 ## Roadmap
 
