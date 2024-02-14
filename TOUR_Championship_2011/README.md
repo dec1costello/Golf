@@ -25,20 +25,6 @@ Welcome to my analysis of the **2011 TOUR Championship** at [East Lake Golf Club
 
 In Part 1, I explore the data and start to feature engineer to help understand, clean, and refine the dataset. It guides model choice and assumption validation, while also revealing insights through visualization. By addressing data quality and understanding patterns early, here I establish a strong foundation for the rest of my project.
 
-<table>
-
-<tbody>
-  <tr>
-    <td>
-      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-1.ipynb">
-        <img src="https://github.com/dec1costello/Golf/assets/79241861/33e03408-c0f8-485f-88b0-03f1ebc9f143" />
-      </a>
-    </td>
-</tr>
-</tbody>
-</table>
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## [SG per Round](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/StrokesGainedPerRound.ipynb)
 
 In Part 2, I explore the distribution of Strokes Gained for each round of the Championship. Round 3 seemed to be the most chaotic, as there was a significant variance in player performance throughout the day.
