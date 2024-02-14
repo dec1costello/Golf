@@ -137,11 +137,14 @@ graph TB
     - [ ] Divide into Putting, Around, Approach, and Off the Tee (200-500) individual models
     - [ ] Mock [Datagolf](https://datagolf.com/approach-skill)
     - [ ] Refactor trainings using [MLFlow](https://mlflow.org/docs/latest/traditional-ml/hyperparameter-tuning-with-child-runs/notebooks/hyperparameter-tuning-with-child-runs.html)
+        - [ ] [MLFlow Inspo](https://medium.com/infer-qwak/building-an-end-to-end-mlops-pipeline-with-open-source-tools-d8bacbf4184f)
 - [ ] Make Bayes Model for est distance to pin after shot
 - [ ] Make into Streamlit App
 - [ ] Plottable
     - [ ] Redo Driving Fairway %
     - [ ] Holes
     - [ ] Players, include Greens in Reg %
+- [ ] [Bayes Model](https://colab.research.google.com/github/AllenDowney/ThinkBayes2/blob/master/examples/hockey.ipynb#scrollTo=B-c6bb9wO-Cs)
+    - [ ] [Bayes Inspo](https://colab.research.google.com/github/AllenDowney/ThinkBayes2/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
