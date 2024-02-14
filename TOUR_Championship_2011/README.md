@@ -146,5 +146,6 @@ graph TB
     - [ ] Players, include Greens in Reg %
 - [ ] [Bayes Model](https://colab.research.google.com/github/AllenDowney/ThinkBayes2/blob/master/examples/hockey.ipynb#scrollTo=B-c6bb9wO-Cs)
     - [ ] [Bayes Inspo](https://colab.research.google.com/github/AllenDowney/ThinkBayes2/)
+    - [ ] [BIP2](https://www.youtube.com/watch?v=Zi6N3GLUJmw)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
