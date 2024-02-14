@@ -15,6 +15,7 @@
     <li><a href="#SG-vs-Driving-Distance-and-Accuracy">SG vs Driving Distance and Accuracy</a></li>
     <li><a href="#Distance-to-Pin-vs-Strokes-to-Hole-Out">Distance to Pin vs Strokes to Hole Out</a></li>
     <li><a href="#Bayes">Bayes</a></li>
+    <li><a href="#Roadmap">Roadmap</a></li>
   </ol>
 </details>
 
@@ -131,10 +132,18 @@ graph TB
 </div>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## **TODO**
-- player and holes plottable, greens in reg
-- bayes, distance to hole
-- streamlit
-- after bayes, mock https://datagolf.com/approach-skill
+<!-- ROADMAP -->
+## Roadmap
+
+- [x] Make xSG Stack Model
+    - [ ] Divide into Putting, Mid, and Off the Tee individual models
+    - [ ] Mock [Datagolf](https://datagolf.com/approach-skill)
+- [ ] Make Bayes Model for est distance to pin after shot
+- [ ] Add Additional Templates w/ Examples
+- [ ] Make into Streamlit App
+- [ ] Plottable
+    - [ ] Redo Driving Fairway %
+    - [ ] Holes
+    - [ ] Players, greens in reg
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
