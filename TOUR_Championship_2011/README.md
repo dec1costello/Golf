@@ -9,7 +9,7 @@
     <li><a href="#Overview">Overview</a></li>
     <li><a href="#EDA">EDA</a></li>
     <li><a href="#SG-per-Round">SG per Round</a></li>
-    <li><a href="#SG-per-Hole-per-Round">SG per Hole per Roun</a></li>
+    <li><a href="#SG-per-Hole-per-Round">SG per Hole per Round</a></li>
     <li><a href="#SG-vs-Driving-Distance-and-Accuracy">SG vs Driving Distance and Accuracy</a></li>
     <li><a href="#Distance-to-Pin-vs-Strokes-to-Hole-Out">Distance to Pin vs Strokes to Hole Out</a></li>
     <li><a href="#Bayes">Bayes</a></li>
