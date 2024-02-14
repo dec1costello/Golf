@@ -136,14 +136,13 @@ graph TB
 ## Roadmap
 
 - [x] Make xSG Stack Model
-    - [ ] Divide into Putting, Mid, and Off the Tee individual models
+    - [ ] Divide into Putting, Around, Approach, and Off the Tee (200-500) individual models
     - [ ] Mock [Datagolf](https://datagolf.com/approach-skill)
 - [ ] Make Bayes Model for est distance to pin after shot
-- [ ] Add Additional Templates w/ Examples
 - [ ] Make into Streamlit App
 - [ ] Plottable
     - [ ] Redo Driving Fairway %
     - [ ] Holes
-    - [ ] Players, greens in reg
+    - [ ] Players, include Greens in Reg %
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
