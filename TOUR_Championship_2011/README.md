@@ -124,7 +124,6 @@ graph TB
     - [ ] Mock [Datagolf](https://datagolf.com/approach-skill)
     - [ ] Refactor trainings using [MLFlow](https://mlflow.org/docs/latest/traditional-ml/hyperparameter-tuning-with-child-runs/notebooks/hyperparameter-tuning-with-child-runs.html)
         - [ ] [MLFlow Inspo](https://medium.com/infer-qwak/building-an-end-to-end-mlops-pipeline-with-open-source-tools-d8bacbf4184f)
-- [ ] Make Bayes Model for est distance to pin after shot
 - [ ] Make into Streamlit App
 - [ ] Plottable
     - [ ] Redo Driving Fairway %
