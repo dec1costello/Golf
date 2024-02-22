@@ -129,6 +129,8 @@ graph TB
 
 - [x] Make xSG Stack Model
     - [ ] Divide into Putting, Around, Approach, and Off the Tee (200-500) individual models
+    - [ ] Invert X axis on xS plots
+    - [ ] Make count flow type charts on before and after shot lies (do a copy on a col before the shift)
     - [ ] Mock [Datagolf](https://datagolf.com/approach-skill)
     - [ ] Refactor trainings using [MLFlow](https://mlflow.org/docs/latest/traditional-ml/hyperparameter-tuning-with-child-runs/notebooks/hyperparameter-tuning-with-child-runs.html)
         - [ ] [MLFlow Inspo](https://medium.com/infer-qwak/building-an-end-to-end-mlops-pipeline-with-open-source-tools-d8bacbf4184f)
