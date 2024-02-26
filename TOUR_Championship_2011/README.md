@@ -100,7 +100,6 @@ graph TB
       NumericTransformer --> RobustScaler;
       RobustScaler --> Stratify;
 
-      Stratify--> GradientBoostingRegressor;
       Stratify-->RandomForestRegressor;
       Stratify-->MLPRegressor;
       Stratify-->GradientBoostingRegressor;
