@@ -136,6 +136,8 @@ graph TB
         - [ ] [Install Data Bricks CLI](https://www.youtube.com/watch?v=-7XegzgjgM0&list=PLQqR_3C2fhUUkoXAcomOxcvfPwRn90U-g&index=8)
         - [ ] [Post Trainings on Data Bricks](https://community.cloud.databricks.com/?o=5379878152283690)
 - [ ] Make into Streamlit App
+- [ ] Approach shot always #2 on par 4s? what if someone drives the green?
+- [ ] Auto EDA
 - [ ] Plottable
     - [ ] Redo Driving Fairway %
     - [ ] Holes
@@ -143,6 +145,6 @@ graph TB
 - [ ] [Bayes Model](https://colab.research.google.com/github/AllenDowney/ThinkBayes2/blob/master/examples/hockey.ipynb#scrollTo=B-c6bb9wO-Cs)
     - [ ] [Bayes Inspo](https://colab.research.google.com/github/AllenDowney/ThinkBayes2/)
     - [ ] [BIP2](https://www.youtube.com/watch?v=Zi6N3GLUJmw)
-- [ ] Use [Evidently](https://www.youtube.com/watch?v=L4Pv6ExBQPM) to detect drift on the final round
+- [ ] Use [Evidently](https://www.youtube.com/watch?v=L4Pv6ExBQPM) and WHYLOGS / WHYLABS to detect drift on the final round
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
