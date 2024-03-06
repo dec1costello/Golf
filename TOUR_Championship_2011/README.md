@@ -78,13 +78,7 @@ In Part 4, I explore the distribution of Strokes Gained vs Driving Distance Gain
 </tbody>
 </table>
 
-<table>
-<div align="center">
-  <a href="https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb">
-    <img src="https://github.com/dec1costello/Golf/assets/79241861/04218edc-60f7-4637-bcbd-20cc7c760268" alt="Event Scatter" style="width:70%">
-  </a>
-</div>
-</table>
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## [Distance to Pin vs Strokes to Hole Out](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb)
