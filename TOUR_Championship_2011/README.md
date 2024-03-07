@@ -130,7 +130,7 @@ graph TB
         - [ ] [Install Data Bricks CLI](https://www.youtube.com/watch?v=-7XegzgjgM0&list=PLQqR_3C2fhUUkoXAcomOxcvfPwRn90U-g&index=8)
         - [ ] [Post Trainings on Data Bricks](https://community.cloud.databricks.com/?o=5379878152283690)
 - [ ] Exploratory Data Analysis
-  - [ ] Auto EDA
+    - [ ] Auto EDA
     - [ ] Redo Driving Fairway %
     - [ ] Holes
     - [ ] Players, include Greens in Reg %
