@@ -119,7 +119,7 @@ graph TB
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Make xSG Stack Model
+- [x] xS Stack Model Refinement
     - [ ] Divide into Putting, Around, Approach, and Off the Tee (200-500) individual models
     - [ ] Invert X axis on xS plots
     - [ ] Add in weather to model
@@ -129,16 +129,21 @@ graph TB
         - [ ] [MLFlow Inspo](https://medium.com/infer-qwak/building-an-end-to-end-mlops-pipeline-with-open-source-tools-d8bacbf4184f)
         - [ ] [Install Data Bricks CLI](https://www.youtube.com/watch?v=-7XegzgjgM0&list=PLQqR_3C2fhUUkoXAcomOxcvfPwRn90U-g&index=8)
         - [ ] [Post Trainings on Data Bricks](https://community.cloud.databricks.com/?o=5379878152283690)
-- [ ] Make into Streamlit App
-- [ ] Approach shot always #2 on par 4s? what if someone drives the green?
-- [ ] Auto EDA
-- [ ] Plottable
+- [ ] Exploratory Data Analysis
+  - [ ] Auto EDA
     - [ ] Redo Driving Fairway %
     - [ ] Holes
     - [ ] Players, include Greens in Reg %
-- [ ] [Bayes Model](https://colab.research.google.com/github/AllenDowney/ThinkBayes2/blob/master/examples/hockey.ipynb#scrollTo=B-c6bb9wO-Cs)
-    - [ ] [Bayes Inspo](https://colab.research.google.com/github/AllenDowney/ThinkBayes2/)
-    - [ ] [BIP2](https://www.youtube.com/watch?v=Zi6N3GLUJmw)
-- [ ] Use [Evidently](https://www.youtube.com/watch?v=L4Pv6ExBQPM) and WHYLOGS / WHYLABS to detect drift on the final round
+- [ ] Bayesian Model Integration
+    - [ ] [Refer To](https://colab.research.google.com/github/AllenDowney/ThinkBayes2/blob/master/examples/hockey.ipynb#scrollTo=B-c6bb9wO-Cs)
+    - [ ] [Utilize](https://colab.research.google.com/github/AllenDowney/ThinkBayes2/)
+    - [ ] [Watch](https://www.youtube.com/watch?v=Zi6N3GLUJmw)
+- [ ] Drift Detection
+    - [ ] Use [Evidently](https://www.youtube.com/watch?v=L4Pv6ExBQPM) and WHYLOGS / WHYLABS to detect drift on the final round
+- [ ] Streamlit App Development
+    - [ ] Develop a user-friendly Streamlit App for easy interaction and visualization of the xSG Stack Model
+- [ ] Golf Domain Questions
+    - [ ] Approach shot always #2 on par 4s? what if someone drives the green?   
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
