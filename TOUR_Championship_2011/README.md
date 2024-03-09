@@ -120,8 +120,7 @@ graph TB
 ## Roadmap
 
 - [x] xS Stack Model Refinement
-    - [ ] Divide into Putting, Around, Approach, and Off the Tee (200-500) individual models
-    - [ ] Invert X axis on xS plots
+    - [ ] Divide into Putting, Approach, and Off the Tee (200-500) individual models
     - [ ] Add in weather to model
     - [ ] Make count flow type charts on before and after shot lies (do a copy on a col before the shift)
     - [ ] Mock [Datagolf](https://datagolf.com/approach-skill)
@@ -132,7 +131,6 @@ graph TB
 - [ ] Exploratory Data Analysis
     - [ ] Auto EDA
     - [ ] Redo Driving Fairway %
-    - [ ] Holes
     - [ ] Players, include Greens in Reg %
 - [ ] Bayesian Model Integration
     - [ ] [Refer To](https://colab.research.google.com/github/AllenDowney/ThinkBayes2/blob/master/examples/hockey.ipynb#scrollTo=B-c6bb9wO-Cs)
