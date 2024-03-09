@@ -53,7 +53,7 @@ In Part 3, I explore the distribution of Strokes Gained for each hole of each ro
   <tr>
     <td>
       <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-1.ipynb">
-        <img src="https://github.com/dec1costello/Golf/assets/79241861/64fd4114-3d37-4e0f-938e-26956644a11e" />
+        <img src="https://github.com/dec1costello/Golf/assets/79241861/1a34d922-fa9d-4786-8467-ce0e65713cf9" />
       </a>
     </td>
 </tr>
