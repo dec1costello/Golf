@@ -140,8 +140,6 @@ graph TB
     - [ ] [Watch](https://www.youtube.com/watch?v=Zi6N3GLUJmw)
 - [ ] Drift Detection
     - [ ] Use [Evidently](https://www.youtube.com/watch?v=L4Pv6ExBQPM) and WHYLOGS / WHYLABS to detect drift on the final round
-- [ ] Streamlit App Development
-    - [ ] Develop a user-friendly Streamlit App for easy interaction and visualization of the xSG Stack Model
 - [ ] Golf Domain Questions
     - [ ] Approach shot always #2 on par 4s? what if someone drives the green?   
 
