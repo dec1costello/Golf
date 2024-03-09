@@ -130,6 +130,7 @@ graph TB
         - [ ] [Post Trainings on Data Bricks](https://community.cloud.databricks.com/?o=5379878152283690)
 - [ ] Exploratory Data Analysis
     - [ ] Auto EDA
+    - [ ] Convert all readme plots to bokeh
     - [ ] Redo Driving Fairway %
     - [ ] Players, include Greens in Reg %
 - [ ] Bayesian Model Integration
