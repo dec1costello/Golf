@@ -125,13 +125,12 @@ graph TB
     - [ ] Make count flow type charts on before and after shot lies (do a copy on a col before the shift)
     - [ ] Mock [Datagolf](https://datagolf.com/approach-skill)
     - [ ] Refactor trainings using [MLFlow](https://mlflow.org/docs/latest/traditional-ml/hyperparameter-tuning-with-child-runs/notebooks/hyperparameter-tuning-with-child-runs.html)
-        - [ ] [MLFlow Inspo](https://medium.com/infer-qwak/building-an-end-to-end-mlops-pipeline-with-open-source-tools-d8bacbf4184f)
-        - [ ] [Install Data Bricks CLI](https://www.youtube.com/watch?v=-7XegzgjgM0&list=PLQqR_3C2fhUUkoXAcomOxcvfPwRn90U-g&index=8)
-        - [ ] [Post Trainings on Data Bricks](https://community.cloud.databricks.com/?o=5379878152283690)
+        - [ ] [Refer To](https://medium.com/infer-qwak/building-an-end-to-end-mlops-pipeline-with-open-source-tools-d8bacbf4184f)
+        - [ ] [Utilize](https://community.cloud.databricks.com/?o=5379878152283690)
+        - [ ] [Watch](https://www.youtube.com/watch?v=-7XegzgjgM0&list=PLQqR_3C2fhUUkoXAcomOxcvfPwRn90U-g&index=8)
 - [ ] Exploratory Data Analysis
     - [ ] Auto EDA
     - [ ] Convert all readme plots to bokeh
-    - [ ] Redo Driving Fairway %
     - [ ] Players, include Greens in Reg %
 - [ ] Bayesian Model Integration
     - [ ] [Refer To](https://colab.research.google.com/github/AllenDowney/ThinkBayes2/blob/master/examples/hockey.ipynb#scrollTo=B-c6bb9wO-Cs)
@@ -140,7 +139,8 @@ graph TB
 - [ ] Drift Detection
     - [ ] Use [Evidently](https://www.youtube.com/watch?v=L4Pv6ExBQPM) and WHYLOGS / WHYLABS to detect drift on the final round
 - [ ] Golf Domain Questions
-    - [ ] Approach shot always #2 on par 4s? what if someone drives the green?   
+    - [ ] Approach shot always #2 on par 4s? what if someone drives the green?
+    - [ ] Vice versa, If a golfer hits the green on a par 3, does that contribute to fairways hit %?  
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
