@@ -52,7 +52,7 @@ In Part 3, I explore the distribution of Strokes Gained for each hole of each ro
 <tbody>
   <tr>
     <td>
-      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-1.ipynb">
+      <a href="https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/ImprovedStrokesGainedPerRoundPerHole.ipynb">
         <img src="https://github.com/dec1costello/Golf/assets/79241861/1a34d922-fa9d-4786-8467-ce0e65713cf9" />
       </a>
     </td>
