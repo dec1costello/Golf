@@ -35,7 +35,7 @@ In Part 2, I explore the distribution of Strokes Gained for each round of the Ch
   <tr>
     <td>
       <a href="https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/StrokesGainedPerRound.ipynb">
-        <img src="https://github.com/dec1costello/Golf/assets/79241861/2b87297f-bc61-455d-8b38-5cc526f61a7c" />
+        <img src="https://github.com/dec1costello/Golf/assets/79241861/3647114d-7858-4bb3-bcd9-1e0164f920fb" />
       </a>
     </td>
 </tr>
