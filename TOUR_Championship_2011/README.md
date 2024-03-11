@@ -35,7 +35,7 @@ In Part 2, I explore the distribution of Strokes Gained for each round of the Ch
   <tr>
     <td>
       <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-1.ipynb">
-        <img src="https://github.com/dec1costello/Baseball/assets/79241861/6574a5ff-1dbe-4768-b47e-d228d980300e" />
+        <img src="https://github.com/dec1costello/Baseball/assets/79241861/da40a9f5-f984-48c2-8fb7-329b2de98f1f" />
       </a>
     </td>
 </tr>
