@@ -120,18 +120,11 @@ graph TB
 ## Roadmap
 
 - [x] xS Stack Model Refinement
-    - [ ] Divide into Putting, Approach, and Off the Tee (200-500) individual models
-    - [ ] Add in weather to model
-    - [ ] Make count flow type charts on before and after shot lies (do a copy on a col before the shift)
-    - [ ] Mock [Datagolf](https://datagolf.com/approach-skill)
+    - [ ] Create seperare Putting Model
     - [ ] Refactor trainings using [MLFlow](https://mlflow.org/docs/latest/traditional-ml/hyperparameter-tuning-with-child-runs/notebooks/hyperparameter-tuning-with-child-runs.html)
         - [ ] [Refer To](https://medium.com/infer-qwak/building-an-end-to-end-mlops-pipeline-with-open-source-tools-d8bacbf4184f)
         - [ ] [Utilize](https://community.cloud.databricks.com/?o=5379878152283690)
         - [ ] [Watch](https://www.youtube.com/watch?v=-7XegzgjgM0&list=PLQqR_3C2fhUUkoXAcomOxcvfPwRn90U-g&index=8)
-- [ ] Exploratory Data Analysis
-    - [ ] Auto EDA
-    - [ ] Convert all readme plots to bokeh
-    - [ ] Players, include Greens in Reg %
 - [ ] Bayesian Model Integration
     - [ ] [Refer To](https://colab.research.google.com/github/AllenDowney/ThinkBayes2/blob/master/examples/hockey.ipynb#scrollTo=B-c6bb9wO-Cs)
     - [ ] [Utilize](https://colab.research.google.com/github/AllenDowney/ThinkBayes2/)
@@ -140,7 +133,15 @@ graph TB
     - [ ] Use [Evidently](https://www.youtube.com/watch?v=L4Pv6ExBQPM) and WHYLOGS / WHYLABS to detect drift on the final round
 - [ ] Golf Domain Questions
     - [ ] Approach shot always #2 on par 4s? what if someone drives the green?
-    - [ ] Vice versa, If a golfer hits the green on a par 3, does that contribute to fairways hit %?  
+    - [ ] Vice versa, If a golfer hits the green on a par 3, does that contribute to fairways hit %?
+    - [ ] Predicted SG with same data from that round? or against standard?
+- [ ] Random
+    - [ ] Weather Data
+    - [ ] Count flow type charts w/ Lies before adn After
+    - [ ] Map Data
+        - [ ] expected on course per hole
+        - [ ] acutall mappings with sg colored per hole
+        - [ ] map holes with convex hulls
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
