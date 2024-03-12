@@ -120,7 +120,7 @@ graph TB
 ## Roadmap
 
 - [x] xS Stack Model Refinement
-    - [ ] Create seperare Putting Model
+    - [ ] Create seperate putting model
     - [ ] Refactor trainings using [MLFlow](https://mlflow.org/docs/latest/traditional-ml/hyperparameter-tuning-with-child-runs/notebooks/hyperparameter-tuning-with-child-runs.html)
         - [ ] [Refer To](https://medium.com/infer-qwak/building-an-end-to-end-mlops-pipeline-with-open-source-tools-d8bacbf4184f)
         - [ ] [Utilize](https://community.cloud.databricks.com/?o=5379878152283690)
@@ -138,6 +138,8 @@ graph TB
 - [ ] Random
     - [ ] Weather Data
     - [ ] Count flow type charts w/ Lies before adn After
+    - [ ] actual sg per player
+    - [ ] get water data holes in project
     - [ ] Map Data
         - [ ] expected on course per hole
         - [ ] acutall mappings with sg colored per hole
