@@ -136,7 +136,7 @@ graph TB
     - [ ] [Lie & SG Plinko](https://baseballsavant.mlb.com/visuals/pitch-plinko)
     - [ ] [SG Distributions](https://baseballsavant.mlb.com/visuals/statcast-pitch-distribution)
     - [ ] [Hole Heatmaps](https://datagolf.com/hole-heatmaps)
-    - [ ] - [ ] [Drive KDE](https://baseballsavant.mlb.com/player-comparison)
+    - [ ] [Drive KDE](https://baseballsavant.mlb.com/player-comparison)
 - [ ] [Bayesian Integration](https://www.pymc.io/projects/examples/en/latest/gallery.html)
     - [ ] [Refer To](https://colab.research.google.com/github/AllenDowney/ThinkBayes2/blob/master/examples/hockey.ipynb#scrollTo=B-c6bb9wO-Cs)
     - [ ] [Utilize](https://colab.research.google.com/github/AllenDowney/ThinkBayes2/)
