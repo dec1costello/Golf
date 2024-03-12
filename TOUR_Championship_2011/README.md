@@ -133,13 +133,11 @@ graph TB
     - [ ] Biometrics
     - [ ] [Weather](https://www.wunderground.com/history/daily/KATL/date/2011-9-22)
 - [ ] Data Viz
-    - [ ] Count flow type charts w/ Lies before adn After
-    - [ ] actual sg per player
-    - [ ] get water data holes in project
+    - [ ] [Lie & SG Plinko](https://baseballsavant.mlb.com/visuals/pitch-plinko)
+    - [ ] [SG Distributions](https://baseballsavant.mlb.com/visuals/statcast-pitch-distribution)
     - [ ] Geo Viz
-        - [ ] expected on course per hole
-        - [ ] acutall mappings with sg colored per hole
-        - [ ] map holes with convex hulls
+        - [ ] [Hole Heatmaps](https://datagolf.com/hole-heatmaps)
+        - [ ] [Drive KDE](https://baseballsavant.mlb.com/player-comparison)
 - [ ] [Bayesian Integration](https://www.pymc.io/projects/examples/en/latest/gallery.html)
     - [ ] [Refer To](https://colab.research.google.com/github/AllenDowney/ThinkBayes2/blob/master/examples/hockey.ipynb#scrollTo=B-c6bb9wO-Cs)
     - [ ] [Utilize](https://colab.research.google.com/github/AllenDowney/ThinkBayes2/)
