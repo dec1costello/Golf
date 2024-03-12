@@ -136,11 +136,11 @@ graph TB
     - [ ] [Career Earnings](https://www.spotrac.com/pga/rankings/date/2011-01-01/2011-09-20/)
     - [ ] Biometrics
     - [ ] [Weather](https://www.wunderground.com/history/daily/KATL/date/2011-9-22)
-- [ ] Data Vis
+- [ ] Data Viz
     - [ ] Count flow type charts w/ Lies before adn After
     - [ ] actual sg per player
     - [ ] get water data holes in project
-    - [ ] Map Data
+    - [ ] Geo Viz
         - [ ] expected on course per hole
         - [ ] acutall mappings with sg colored per hole
         - [ ] map holes with convex hulls
