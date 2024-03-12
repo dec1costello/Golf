@@ -121,18 +121,14 @@ graph TB
 
 - [x] xS Stack Model Refinement
     - [ ] Create seperate putting model
-    - [ ] [MLFlow Integration](https://mlflow.org/docs/latest/traditional-ml/hyperparameter-tuning-with-child-runs/notebooks/hyperparameter-tuning-with-child-runs.html)
+    - [ ] [MLFlow](https://mlflow.org/docs/latest/traditional-ml/hyperparameter-tuning-with-child-runs/notebooks/hyperparameter-tuning-with-child-runs.html)
         - [ ] [Refer To](https://medium.com/infer-qwak/building-an-end-to-end-mlops-pipeline-with-open-source-tools-d8bacbf4184f)
         - [ ] [Utilize](https://community.cloud.databricks.com/?o=5379878152283690)
-        - [ ] [Watch](https://www.youtube.com/watch?v=-7XegzgjgM0&list=PLQqR_3C2fhUUkoXAcomOxcvfPwRn90U-g&index=8)
-- [ ] [Bayesian Integration](https://www.pymc.io/projects/examples/en/latest/gallery.html)
-    - [ ] [Refer To](https://colab.research.google.com/github/AllenDowney/ThinkBayes2/blob/master/examples/hockey.ipynb#scrollTo=B-c6bb9wO-Cs)
-    - [ ] [Utilize](https://colab.research.google.com/github/AllenDowney/ThinkBayes2/)
-    - [ ] [Watch](https://www.youtube.com/watch?v=Zi6N3GLUJmw)
-- [ ] Drift Detection Integration
-    - [ ] [Evidently](https://www.youtube.com/watch?v=L4Pv6ExBQPM)
-    - [ ] [Whylogs](https://github.com/whylabs/whylogs)
-- [ ] External Data Integration
+        - [ ] [Watch](https://www.youtube.com/watch?v=-7XegzgjgM0&list=PLQqR_3C2fhUUkoXAcomOxcvfPwRn90U-g&index=8)  
+    - [ ] Drift Detection
+        - [ ] [Evidently](https://www.youtube.com/watch?v=L4Pv6ExBQPM)
+        - [ ] [Whylogs](https://github.com/whylabs/whylogs)
+- [ ] Add External Data
     - [ ] [Career Earnings](https://www.spotrac.com/pga/rankings/date/2011-01-01/2011-09-20/)
     - [ ] Biometrics
     - [ ] [Weather](https://www.wunderground.com/history/daily/KATL/date/2011-9-22)
@@ -144,6 +140,9 @@ graph TB
         - [ ] expected on course per hole
         - [ ] acutall mappings with sg colored per hole
         - [ ] map holes with convex hulls
-
+- [ ] [Bayesian Integration](https://www.pymc.io/projects/examples/en/latest/gallery.html)
+    - [ ] [Refer To](https://colab.research.google.com/github/AllenDowney/ThinkBayes2/blob/master/examples/hockey.ipynb#scrollTo=B-c6bb9wO-Cs)
+    - [ ] [Utilize](https://colab.research.google.com/github/AllenDowney/ThinkBayes2/)
+    - [ ] [Watch](https://www.youtube.com/watch?v=Zi6N3GLUJmw)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
