@@ -132,15 +132,11 @@ graph TB
 - [ ] Drift Detection Integration
     - [ ] [Evidently](https://www.youtube.com/watch?v=L4Pv6ExBQPM)
     - [ ] [Whylogs](https://github.com/whylabs/whylogs)
-- [ ] Golf Domain Questions
-    - [ ] Approach shot always #2 on par 4s? what if someone drives the green?
-    - [ ] Vice versa, If a golfer hits the green on a par 3, does that contribute to fairways hit %?
-    - [ ] Predicted SG with same data from that round? or against standard?
 - [ ] External Data Integration
     - [ ] [Career Earnings](https://www.spotrac.com/pga/rankings/date/2011-01-01/2011-09-20/)
     - [ ] Biometrics
     - [ ] [Weather](https://www.wunderground.com/history/daily/KATL/date/2011-9-22)
-- [ ] Random
+- [ ] Data Vis
     - [ ] Count flow type charts w/ Lies before adn After
     - [ ] actual sg per player
     - [ ] get water data holes in project
