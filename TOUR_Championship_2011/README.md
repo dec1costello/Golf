@@ -138,6 +138,7 @@ graph TB
     - [ ] Predicted SG with same data from that round? or against standard?
 - [ ] External Data Integration
     - [ ] [Career Earnings](https://www.spotrac.com/pga/rankings/date/2011-01-01/2011-09-20/)
+    - [ ] Biometrics
     - [ ] [Weather](https://www.wunderground.com/history/daily/KATL/date/2011-9-22)
 - [ ] Random
     - [ ] Count flow type charts w/ Lies before adn After
