@@ -130,7 +130,7 @@ graph TB
     - [ ] [Utilize](https://colab.research.google.com/github/AllenDowney/ThinkBayes2/)
     - [ ] [Watch](https://www.youtube.com/watch?v=Zi6N3GLUJmw)
 - [ ] Drift Detection Integration
-    - [ ] [Evidently](https://www.youtube.com/watch?v=L4Pv6ExBQPM) and
+    - [ ] [Evidently](https://www.youtube.com/watch?v=L4Pv6ExBQPM)
     - [ ] [Whylogs](https://github.com/whylabs/whylogs)
 - [ ] Golf Domain Questions
     - [ ] Approach shot always #2 on par 4s? what if someone drives the green?
