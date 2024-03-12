@@ -121,22 +121,25 @@ graph TB
 
 - [x] xS Stack Model Refinement
     - [ ] Create seperate putting model
-    - [ ] Refactor trainings using [MLFlow](https://mlflow.org/docs/latest/traditional-ml/hyperparameter-tuning-with-child-runs/notebooks/hyperparameter-tuning-with-child-runs.html)
+    - [ ] [MLFlow Integration](https://mlflow.org/docs/latest/traditional-ml/hyperparameter-tuning-with-child-runs/notebooks/hyperparameter-tuning-with-child-runs.html)
         - [ ] [Refer To](https://medium.com/infer-qwak/building-an-end-to-end-mlops-pipeline-with-open-source-tools-d8bacbf4184f)
         - [ ] [Utilize](https://community.cloud.databricks.com/?o=5379878152283690)
         - [ ] [Watch](https://www.youtube.com/watch?v=-7XegzgjgM0&list=PLQqR_3C2fhUUkoXAcomOxcvfPwRn90U-g&index=8)
-- [ ] Bayesian Model Integration
+- [ ] [Bayesian Integration](https://www.pymc.io/projects/examples/en/latest/gallery.html)
     - [ ] [Refer To](https://colab.research.google.com/github/AllenDowney/ThinkBayes2/blob/master/examples/hockey.ipynb#scrollTo=B-c6bb9wO-Cs)
     - [ ] [Utilize](https://colab.research.google.com/github/AllenDowney/ThinkBayes2/)
     - [ ] [Watch](https://www.youtube.com/watch?v=Zi6N3GLUJmw)
-- [ ] Drift Detection
-    - [ ] Use [Evidently](https://www.youtube.com/watch?v=L4Pv6ExBQPM) and WHYLOGS / WHYLABS to detect drift on the final round
+- [ ] Drift Detection Integration
+    - [ ] [Evidently](https://www.youtube.com/watch?v=L4Pv6ExBQPM) and
+    - [ ] [Whylogs](https://github.com/whylabs/whylogs)
 - [ ] Golf Domain Questions
     - [ ] Approach shot always #2 on par 4s? what if someone drives the green?
     - [ ] Vice versa, If a golfer hits the green on a par 3, does that contribute to fairways hit %?
     - [ ] Predicted SG with same data from that round? or against standard?
+- [ ] External Data Integration
+    - [ ] [Career Earnings](https://www.spotrac.com/pga/rankings/date/2023-12-12/2024-03-12/)
+    - [ ] [Weather]()
 - [ ] Random
-    - [ ] Weather Data
     - [ ] Count flow type charts w/ Lies before adn After
     - [ ] actual sg per player
     - [ ] get water data holes in project
