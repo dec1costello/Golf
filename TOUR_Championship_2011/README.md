@@ -137,7 +137,7 @@ graph TB
     - [ ] Vice versa, If a golfer hits the green on a par 3, does that contribute to fairways hit %?
     - [ ] Predicted SG with same data from that round? or against standard?
 - [ ] External Data Integration
-    - [ ] [Career Earnings](https://www.spotrac.com/pga/rankings/date/2023-12-12/2024-03-12/)
+    - [ ] [Career Earnings](https://www.spotrac.com/pga/rankings/date/2011-01-01/2011-09-20/)
     - [ ] [Weather]()
 - [ ] Random
     - [ ] Count flow type charts w/ Lies before adn After
