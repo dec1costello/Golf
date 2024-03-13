@@ -10,7 +10,7 @@
     <li><a href="#EDA">EDA</a></li>
     <li><a href="#SG-per-Round">SG per Round</a></li>
     <li><a href="#SG-per-Hole">SG per Hole per Round</a></li>
-    <li><a href="#SG-vs-Driving-Distance-and-Accuracy">SG vs Driving Distance and Accuracy</a></li>
+    <li><a href="#SG-per-Drive">SG vs Driving Distance and Accuracy</a></li>
     <li><a href="#Expected-Strokes">Distance to Pin vs Strokes to Hole Out</a></li>
     <li><a href="#Bayes">Bayes</a></li>
     <li><a href="#Roadmap">Roadmap</a></li>
@@ -48,7 +48,7 @@ In Part 3, I explore the distribution of Strokes Gained for each hole of each ro
 </div>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## [SG vs Driving Distance and Accuracy](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb)
+## [SG per Drive](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb)
 
 In Part 4, I explore the distribution of Strokes Gained vs Driving Distance Gained (DG) and Accuracy Gained (AG) for each player for each hole of each round fot the Championship. Happy to say my analysis aligns with [Data Golf's Course Fit Tool](https://datagolf.com/course-fit-tool), in that AG appears to be an important facor for preforming at East Lake Golf Club.
 
