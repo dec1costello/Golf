@@ -43,7 +43,7 @@ In Part 3, I explore the distribution of Strokes Gained for each hole of each ro
 
 <div align="center">
   <a href="https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb">
-    <img src="https://github.com/dec1costello/Golf/assets/79241861/ff8388ff-441b-4e20-be78-2d5da0e41499" alt="Event Scatter" style="width:100%">
+    <img src="https://github.com/dec1costello/Golf/assets/79241861/5fb76665-1de7-4d00-a42d-370c6fc5a987" alt="Event Scatter" style="width:100%">
   </a>
 </div>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
