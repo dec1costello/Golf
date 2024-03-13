@@ -12,7 +12,8 @@
     <li><a href="#SG-per-Hole">SG per Hole</a></li>
     <li><a href="#SG-per-Drive">SG per Drive</a></li>
     <li><a href="#Expected-Strokes-Model">Expected Strokes Model</a></li>
-    <li><a href="#Bayes">Bayes</a></li>
+    <li><a href="#SG-per-Distance">SG per Distance</a></li>
+    <li><a href="#SG-per-Location">SG per Location</a></li>
     <li><a href="#Roadmap">Roadmap</a></li>
   </ol>
 </details>
@@ -89,9 +90,15 @@ graph TB
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## [Model Preformance](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb)
+## [SG per Distance](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb)
 
 In Part 6, I evaluate the model's expected strokes at different lies and locations.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## [SG per Location](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb)
+
+In Part 7, I map SG.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
