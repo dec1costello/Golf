@@ -89,9 +89,9 @@ graph TB
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## [SG vs Driving Distance and Accuracy](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb)
+## [Model Preformance](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb)
 
-In Part 6, I evaluate the model's expected stroked at different lies and locations.
+In Part 6, I evaluate the model's expected strokes at different lies and locations.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
