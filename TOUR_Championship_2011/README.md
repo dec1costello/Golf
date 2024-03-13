@@ -9,9 +9,9 @@
     <li><a href="#Overview">Overview</a></li>
     <li><a href="#EDA">EDA</a></li>
     <li><a href="#SG-per-Round">SG per Round</a></li>
-    <li><a href="#SG-per-Hole">SG per Hole per Round</a></li>
-    <li><a href="#SG-per-Drive">SG vs Driving Distance and Accuracy</a></li>
-    <li><a href="#Expected-Strokes">Distance to Pin vs Strokes to Hole Out</a></li>
+    <li><a href="#SG-per-Hole">SG per Hole</a></li>
+    <li><a href="#SG-per-Drive">SG per Drive</a></li>
+    <li><a href="#Expected-Strokes-Model">Expected Strokes Model</a></li>
     <li><a href="#Bayes">Bayes</a></li>
     <li><a href="#Roadmap">Roadmap</a></li>
   </ol>
@@ -50,7 +50,7 @@ In Part 3, I explore the distribution of Strokes Gained for each hole of each ro
 
 ## [SG per Drive](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb)
 
-In Part 4, I explore the distribution of Strokes Gained vs Driving Distance Gained (DG) and Accuracy Gained (AG) for each player for each hole of each round fot the Championship. Happy to say my analysis aligns with [Data Golf's Course Fit Tool](https://datagolf.com/course-fit-tool), in that AG appears to be an important facor for preforming at East Lake Golf Club.
+In Part 4, I explore the distribution of Strokes Gained vs Driving Distance Gained (DG) and Driving Accuracy Gained (AG) for each drive of the Championship. Happy to say my analysis aligns with [Data Golf's Course Fit Tool](https://datagolf.com/course-fit-tool), in that AG appears to be an important facor for preforming at East Lake Golf Club.
 
 <div align="center">
   <a href="https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb">
@@ -59,7 +59,7 @@ In Part 4, I explore the distribution of Strokes Gained vs Driving Distance Gain
 </div>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## [Expected Strokes](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb)
+## [Expected Strokes Model](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb)
 
 In Part 5, I explore the relationship between Distance to the Pin & Lie vs Strokes to hole out at the Tour Championship. I Ensemble the top  preforming models together using a [Stack](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.StackingRegressor.html) to minimize [Bias](https://towardsdatascience.com/a-quickstart-guide-to-uprooting-model-bias-f4465c8e84bc) and [Variance](https://x.com/akshay_pachaar/status/1703757251474063861?s=20). This iterative process maximized predictive accuracy of Expected Strokes(xS)
 
