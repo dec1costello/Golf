@@ -13,6 +13,7 @@
     <li><a href="#SG-per-Drive">SG per Drive</a></li>
     <li><a href="#Expected-Strokes-Model">Expected Strokes Model</a></li>
     <li><a href="#SG-per-Distance">SG per Distance</a></li>
+    <li><a href="#SG-per-Player">SG per Player</a></li>
     <li><a href="#SG-per-Location">SG per Location</a></li>
     <li><a href="#Roadmap">Roadmap</a></li>
   </ol>
@@ -92,7 +93,18 @@ graph TB
 
 ## [SG per Distance](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb)
 
-In Part 6, I evaluate the model's expected strokes at different lies and locations.
+In Part 6, I evaluate the model's expected strokes from different shots.
+
+<div align="center">
+  <a href="https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb">
+    <img src="https://github.com/dec1costello/Golf/assets/79241861/0b7cc22c-1051-4018-939b-b2cc6b126fd8" alt="Event Scatter" style="width:100%">
+  </a>
+</div>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## [SG per Player](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb)
+
+In Part 7, I map SG.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
