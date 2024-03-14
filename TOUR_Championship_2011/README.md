@@ -12,7 +12,7 @@
     <li><a href="#SG-per-Hole">SG per Hole</a></li>
     <li><a href="#SG-per-Drive">SG per Drive</a></li>
     <li><a href="#Expected-Strokes-Model">Expected Strokes Model</a></li>
-    <li><a href="#SG-per-Distance">SG per Distance</a></li>
+    <li><a href="#SG-per-Shot">SG per Shot</a></li>
     <li><a href="#SG-per-Player">SG per Player</a></li>
     <li><a href="#SG-per-Location">SG per Location</a></li>
     <li><a href="#Roadmap">Roadmap</a></li>
@@ -91,7 +91,7 @@ graph TB
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## [SG per Distance](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb)
+## [SG per Shot](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb)
 
 In Part 6, I evaluate the model's expected strokes from different shots.
 
