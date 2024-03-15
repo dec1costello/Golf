@@ -12,7 +12,6 @@
     <li><a href="#SG-per-Hole">SG per Hole</a></li>
     <li><a href="#SG-per-Drive">SG per Drive</a></li>
     <li><a href="#Expected-Strokes-Model">Expected Strokes Model</a></li>
-    <li><a href="#SG-per-Shot">SG per Shot</a></li>
     <li><a href="#SG-per-Player">SG per Player</a></li>
     <li><a href="#SG-per-Location">SG per Location</a></li>
     <li><a href="#Roadmap">Roadmap</a></li>
