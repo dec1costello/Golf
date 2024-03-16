@@ -90,6 +90,18 @@ graph TB
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+
+## [xG Model Preformance](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb)
+
+In Part 4, look at the model preformance
+<div align="center">
+  <a href="https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb">
+    <img src="https://github.com/dec1costello/Golf/assets/79241861/960c4a1d-ace2-4b8c-af82-bb74948709a5" alt="Event Scatter" style="width:100%">
+  </a>
+</div>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 ## [SG per Player](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb)
 
 In Part 7, I map SG.
