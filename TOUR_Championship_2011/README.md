@@ -7,11 +7,14 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#Overview">Overview</a></li>
+    <li><a href="#Notes">Notes</a></li>
+    <li><a href="#Pending-Questions">Pending Questions</a></li>
     <li><a href="#EDA">EDA</a></li>
     <li><a href="#SG-per-Round">SG per Round</a></li>
     <li><a href="#SG-per-Hole">SG per Hole</a></li>
     <li><a href="#SG-per-Drive">SG per Drive</a></li>
     <li><a href="#Expected-Strokes-Model">Expected Strokes Model</a></li>
+    <li><a href="#xS-Model-Preformance">xS Model Preformance</a></li>
     <li><a href="#SG-per-Player">SG per Player</a></li>
     <li><a href="#SG-per-Location">SG per Location</a></li>
     <li><a href="#Roadmap">Roadmap</a></li>
