@@ -105,7 +105,7 @@ These charts help evaluate the model by showing how predicted values compare to 
 ## Roadmap
 
 - [x] xS Stack Model Refinement
-    - [ ] Create seperate putting model
+    - [x] Create seperate putting model
     - [ ] MLFlow
         - [ ] [Refer To](https://medium.com/infer-qwak/building-an-end-to-end-mlops-pipeline-with-open-source-tools-d8bacbf4184f)
         - [ ] [Watch](https://www.youtube.com/watch?v=-7XegzgjgM0&list=PLQqR_3C2fhUUkoXAcomOxcvfPwRn90U-g&index=8)
