@@ -93,10 +93,10 @@ graph TB
 
 ## [xS Model Preformance](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb)
 
-In Here I look at the model's preformance
+These charts help evaluate the model by showing how predicted values compare to actual ones and revealing patterns in prediction errors. The "Predicted vs Actual" chart checks overall accuracy, while the "Predicted vs Residual" chart highlights patterns in errors. The histogram in "Normality of Residuals" assesses if errors follow a normal distribution, crucial for reliable predictions.
 <div align="center">
   <a href="https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb">
-    <img src="https://github.com/dec1costello/Golf/assets/79241861/960c4a1d-ace2-4b8c-af82-bb74948709a5" alt="Event Scatter" style="width:100%">
+    <img src="https://github.com/dec1costello/Golf/assets/79241861/19de8586-d91d-482d-a171-6b9b89326fd2" alt="Event Scatter" style="width:100%">
   </a>
 </div>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
