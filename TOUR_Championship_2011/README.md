@@ -119,8 +119,8 @@ In Here I look at the model's preformance
     - [ ] [Weather](https://www.wunderground.com/history/daily/KATL/date/2011-9-22)
 - [ ] Data Viz
     - [ ] [SG Distributions](https://baseballsavant.mlb.com/visuals/statcast-pitch-distribution)
-    - [ ] [Lie & SG Plinko](https://baseballsavant.mlb.com/visuals/pitch-plinko)
     - [ ] [Hole Heatmaps](https://datagolf.com/hole-heatmaps)
+    - [ ] [Lie & SG Plinko](https://baseballsavant.mlb.com/visuals/pitch-plinko)
     - [ ] [Drive KDE](https://baseballsavant.mlb.com/player-comparison)
 - [ ] Bayesian Integration
     - [ ] [Refer To](https://colab.research.google.com/github/AllenDowney/ThinkBayes2/blob/master/examples/hockey.ipynb#scrollTo=B-c6bb9wO-Cs)
