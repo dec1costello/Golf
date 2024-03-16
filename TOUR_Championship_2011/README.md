@@ -108,8 +108,8 @@ In Here I look at the model's preformance
     - [ ] Create seperate putting model
     - [ ] MLFlow
         - [ ] [Refer To](https://medium.com/infer-qwak/building-an-end-to-end-mlops-pipeline-with-open-source-tools-d8bacbf4184f)
-        - [ ] [Utilize](https://community.cloud.databricks.com/?o=5379878152283690)
-        - [ ] [Watch](https://www.youtube.com/watch?v=-7XegzgjgM0&list=PLQqR_3C2fhUUkoXAcomOxcvfPwRn90U-g&index=8)  
+        - [ ] [Watch](https://www.youtube.com/watch?v=-7XegzgjgM0&list=PLQqR_3C2fhUUkoXAcomOxcvfPwRn90U-g&index=8)
+        - [ ] [Utilize](https://community.cloud.databricks.com/?o=5379878152283690)  
     - [ ] Drift Detection
         - [ ] [Evidently](https://www.youtube.com/watch?v=L4Pv6ExBQPM)
         - [ ] [Whylogs](https://github.com/whylabs/whylogs)
@@ -118,13 +118,13 @@ In Here I look at the model's preformance
     - [ ] Biometrics
     - [ ] [Weather](https://www.wunderground.com/history/daily/KATL/date/2011-9-22)
 - [ ] Data Viz
-    - [ ] [Lie & SG Plinko](https://baseballsavant.mlb.com/visuals/pitch-plinko)
     - [ ] [SG Distributions](https://baseballsavant.mlb.com/visuals/statcast-pitch-distribution)
+    - [ ] [Lie & SG Plinko](https://baseballsavant.mlb.com/visuals/pitch-plinko)
     - [ ] [Hole Heatmaps](https://datagolf.com/hole-heatmaps)
     - [ ] [Drive KDE](https://baseballsavant.mlb.com/player-comparison)
 - [ ] Bayesian Integration
     - [ ] [Refer To](https://colab.research.google.com/github/AllenDowney/ThinkBayes2/blob/master/examples/hockey.ipynb#scrollTo=B-c6bb9wO-Cs)
-    - [ ] [Utilize](https://colab.research.google.com/github/AllenDowney/ThinkBayes2/)
     - [ ] [Watch](https://www.youtube.com/watch?v=Zi6N3GLUJmw)
+    - [ ] [Utilize](https://colab.research.google.com/github/AllenDowney/ThinkBayes2/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
