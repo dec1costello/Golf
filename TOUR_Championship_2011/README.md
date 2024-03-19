@@ -64,7 +64,6 @@ In Part 3, I explore the distribution of Strokes Gained for each hole of each ro
 ## [SG per Drive](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb)
 
 In Part 4, I explore the distribution of Strokes Gained vs Driving Distance Gained (DG) and Driving Accuracy Gained (AG) for each drive of the Championship. Happy to say my analysis aligns with [Data Golf's Course Fit Tool](https://datagolf.com/course-fit-tool), in that AG appears to be an important facor for preforming at East Lake Golf Club.
-
 <div align="center">
   <a href="https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb">
     <img src="https://github.com/dec1costello/Golf/assets/79241861/2eabd308-cee6-4f72-af2b-6dcea8e6bd86" alt="Event Scatter" style="width:100%">
@@ -115,7 +114,7 @@ These charts help evaluate the model by showing how predicted values compare to 
 
 ## [SG per Shot](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb)
 
-Now that we have a reliable model, we can use it to evaluate where a player excels by subtracting Expected Strokes from the result of each shot. This plot displays Baddeley's strokes gained (SG) by shot type in golf, providing a clear visualization of his performance across different categories, aiding in identifying strengths and weaknesses in his game. 
+Now that we have a reliable model, we can use it to identify strengths and weaknesses for a player by subtracting Expected Strokes from the result of each shot. This plot displays Baddeley's strokes gained (SG) by shot type, providing a clear visualization of his performance across different lies and distances.
 <div align="center">
   <a href="https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb">
     <img src="https://github.com/dec1costello/Golf/assets/79241861/8f8081f4-ed9b-4b79-9da7-76d4ae767f7b" alt="Event Scatter" style="width:100%">
