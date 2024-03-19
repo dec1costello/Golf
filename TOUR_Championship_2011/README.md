@@ -113,6 +113,16 @@ These charts help evaluate the model by showing how predicted values compare to 
 </div>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## [SG per Shot](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb)
+
+Now that we have a reliable model, we can use it to evaluate where a player excels by subtracting Expected Strokes from the result of each shot. This plot displays Baddeley's strokes gained (SG) by shot type in golf, providing a clear visualization of his performance across different categories, aiding in identifying strengths and weaknesses in his game. 
+<div align="center">
+  <a href="https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb">
+    <img src="https://github.com/dec1costello/Golf/assets/79241861/8f8081f4-ed9b-4b79-9da7-76d4ae767f7b" alt="Event Scatter" style="width:100%">
+  </a>
+</div>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- ROADMAP -->
 ## Roadmap
 
