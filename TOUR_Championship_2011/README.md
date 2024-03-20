@@ -29,11 +29,6 @@ Welcome to my analysis of the **2011 TOUR Championship** at [East Lake Golf Club
 
 I chose the **2011 TOUR Championship** because it was the only complete shot level data set I could [find](https://github.com/scottflaska/pga-shotlink/tree/main/data/sample_download). If you see a complete shot level dataset floating around feel free to send it my way!
 
-## **Pending Questions**
-
-- [ ] I'm interested in understanding the correct methodology behind predicting expected strokes. Is it the norm to predict expected strokes using data from that same round because the training data is discrete while the predictions are continuous? Or is there a concern about data leakage, so one would only use training data from prior rounds to predict xS on?
-- [ ] Regarding the statistic "% Fairways Hit," If a player hits the green on a par 3 hole, is it the norm to consider this shot as hitting a fairway? Guessing it would if a player drives the green on a par 4 or 5, so maybe par 3s are included as well if thats the case.
-
 ## [EDA](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/EDA.ipynb)
 
 In Part 1, I explore the data and start to feature engineer to help understand, clean, and refine the dataset. It guides model choice and assumption validation, while also revealing insights through visualization. By addressing data quality and understanding patterns early, here I establish a strong foundation for the rest of my project.
