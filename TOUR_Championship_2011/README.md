@@ -97,7 +97,7 @@ The Stacked Expected Strokes Model leverages the power of ensemble learning by c
 
 While the training data is discrete, for continuous predictions, I faced the task of selecting between regression models. Initially, I employed [Lazy Predict](https://lazypredict.readthedocs.io/en/latest/) to assess various model options comprehensively. Subsequently, I fine-tuned each model's hyperparameters using [Optuna](https://optuna.org/) for enhanced performance.
 
-#### Key Insights
+#### Key Insight
 
 * The GradientBoostingRegressor and HistGradientBoostingRegressor models preformed the best
 * If I were to have to constantly retrain the model I would avoid the MLPRegressor as it takes forever
