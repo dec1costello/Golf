@@ -8,11 +8,12 @@
   <ol>
     <li><a href="#Objectives">Objectives</a></li>
     <li><a href="#Dataset">Dataset</a></li>
-    <li><a href="#Data-Cleaning">Data Cleaning</a></li>
     <li><a href="#EDA">EDA</a></li>
+    <ol>
     <li><a href="#SG-per-Round">SG per Round</a></li>
     <li><a href="#SG-per-Hole">SG per Hole</a></li>
     <li><a href="#SG-per-Drive">SG per Drive</a></li>
+    </ol>
     <li><a href="#Expected-Strokes-Model">Expected Strokes Model</a></li>
     <li><a href="#xS-Model-Preformance">xS Model Preformance</a></li>
     <li><a href="#SG-per-Shot">SG per Shot</a></li>
@@ -25,23 +26,19 @@
 
 Welcome to my analysis of the 2011 TOUR Championship at East Lake Golf Club, the main objective of this project is to:
 
-> **Develop an Expected Strokes Model to identify a player's preformance**
+> **Develop an expected strokes model to identify player preformance**
 
 With an interest in sports analytics, I hope to contribute meaningful insights to the golf community. I chose the 2011 TOUR Championship because it was the only complete shot level data set I could [find](https://github.com/scottflaska/pga-shotlink/tree/main/data/sample_download). If you see a complete shot level dataset floating around feel free to send it my way! To get a better feel for the visual details, I encourage you to check out the interactive visuals on  [NBViewer!](https://nbviewer.org/github/dec1costello/Golf/tree/main/TOUR_Championship_2011/)
 
 ## **Dataset**
 
-Talk about the dataset and how r1+2 weaker. and nature of rough not nessacarly accounting for a bad lie
-
-## **Data Cleaning**
-
-Talk about how I shift the data
+Talk about the dataset and how r1+2 weaker. and nature of rough not nessacarly accounting for a bad lie, learn more about it from these [docs](espn.com)
 
 ## [EDA](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/EDA.ipynb)
 
 In Part 1, I explore the data and start to feature engineer to help understand, clean, and refine the dataset. It guides model choice and assumption validation, while also revealing insights through visualization. By addressing data quality and understanding patterns early, here I establish a strong foundation for the rest of my project.
 
-## [SG per Round](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/StrokesGainedPerRound.ipynb)
+### [SG per Round](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/StrokesGainedPerRound.ipynb)
 
 In Part 2, I explore the distribution of Strokes Gained for each round of the Championship. Round 3 seemed to be the most chaotic, as there was a significant variance in player performance throughout the day.
 
@@ -51,9 +48,8 @@ In Part 2, I explore the distribution of Strokes Gained for each round of the Ch
     <img src="https://github.com/dec1costello/Golf/assets/79241861/275e7705-7748-49e2-b9c1-e7b24d40066d" alt="Event Scatter" style="width:100%">
   </a>
 </div>
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## [SG per Hole](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/ImprovedStrokesGainedPerRoundPerHole.ipynb)
+### [SG per Hole](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/ImprovedStrokesGainedPerRoundPerHole.ipynb)
 
 In Part 3, I explore the distribution of Strokes Gained for each hole of each round of the Championship.
 
@@ -62,9 +58,8 @@ In Part 3, I explore the distribution of Strokes Gained for each hole of each ro
     <img src="https://github.com/dec1costello/Golf/assets/79241861/5fb76665-1de7-4d00-a42d-370c6fc5a987" alt="Event Scatter" style="width:100%">
   </a>
 </div>
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## [SG per Drive](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb)
+### [SG per Drive](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb)
 
 In Part 4, I explore the distribution of Strokes Gained vs Driving Distance Gained (DG) and Driving Accuracy Gained (AG) for each drive of the Championship. Happy to say my analysis aligns with [Data Golf's Course Fit Tool](https://datagolf.com/course-fit-tool), in that AG appears to be an important facor for preforming at East Lake Golf Club.
 <div align="center">
@@ -74,15 +69,24 @@ In Part 4, I explore the distribution of Strokes Gained vs Driving Distance Gain
 </div>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## [Expected Strokes Model Selection]
+## Expected Strokes Model
+
+### [Model Selection]
+
+Although the training data is discrete, because we want a contious predictions I had to choose between regression models
+
+| Threshold  | 0.25 |
+|------------|------|
+| Precision  | 0.7  |
+| Recall     | 0.9  |
+| F1 Score   | 0.85 |
+| Alert Rate | 0.02 |
+
+### Model Explainability
 
 Talk about the dataset and how r1+2 weaker
 
-## [Expected Strokes Model Explainability]
-
-Talk about the dataset and how r1+2 weaker
-
-## [Expected Strokes Stacked Model](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb)
+## [Model Arch](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb)
 
 In Part 5, I explore the relationship between Distance to the Pin & Lie vs Strokes to hole out at the Tour Championship. I Ensemble the top  preforming models together using a [Stack](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.StackingRegressor.html) to minimize [Bias](https://towardsdatascience.com/a-quickstart-guide-to-uprooting-model-bias-f4465c8e84bc) and [Variance](https://x.com/akshay_pachaar/status/1703757251474063861?s=20). This iterative process maximized predictive accuracy of Expected Strokes(xS)
 
