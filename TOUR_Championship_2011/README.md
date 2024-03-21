@@ -60,7 +60,7 @@ In this analysis, I examine the distribution of Strokes Gained for each round of
 
 ### [SG per Hole](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/ImprovedStrokesGainedPerRoundPerHole.ipynb)
 
-In this analysis, I investigate the distribution of Strokes Gained for each hole of every round of the Championship. Notably, Mahan ties Haas in Strokes Gained on the 72nd hole, a significant moment in the tournament. However, Haas ultimately secured victory in the playoffs, as documented [here](https://www.espn.com/golf/leaderboard?tournamentId=917)
+In this analysis, I investigate the distribution of Strokes Gained for each hole of every round of the Championship. Notably, Mahan ties Haas in Strokes Gained on the 72nd hole, a significant moment in the tournament. However, Haas ultimately secured victory in the playoffs, as documented [here!](https://www.espn.com/golf/leaderboard?tournamentId=917)
 
 #### Main Insights
 
