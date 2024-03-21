@@ -97,7 +97,7 @@ Although the training data is discrete, because we want a contious predictions I
 
 ### Model Explainability
 
-Talk about the dataset and how r1+2 weaker
+SHap for meta, Lime for based, show for putting and Approach
 
 ### [Model Arch](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb)
 
