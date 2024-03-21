@@ -21,13 +21,21 @@
   </ol>
 </details>
 
-## **Overview**
+## **Objectives**
 
-Welcome to my analysis of the **2011 TOUR Championship** at [East Lake Golf Club!](https://www.eastlakegolfclub.com/course/) With an interest in sports analytics, the primary aspiration is to contribute meaningful insights to the golf community. To get a better feel for the visual details, I encourage you to check out the interactive visuals on  [NBViewer!](https://nbviewer.org/github/dec1costello/Golf/tree/main/TOUR_Championship_2011/)
+Welcome to my analysis of the **2011 TOUR Championship** at [East Lake Golf Club!](https://www.eastlakegolfclub.com/course/) The main objective of this project is to:
 
-## **Notes**
+> **Develop an Expected Strokes Model to identify a player's strengths and weaknesses**
 
-I chose the **2011 TOUR Championship** because it was the only complete shot level data set I could [find](https://github.com/scottflaska/pga-shotlink/tree/main/data/sample_download). If you see a complete shot level dataset floating around feel free to send it my way!
+With an interest in sports analytics, I hope to contribute meaningful insights to the golf community. I chose the **2011 TOUR Championship** because it was the only complete shot level data set I could [find](https://github.com/scottflaska/pga-shotlink/tree/main/data/sample_download). If you see a complete shot level dataset floating around feel free to send it my way! To get a better feel for the visual details, I encourage you to check out the interactive visuals on  [NBViewer!](https://nbviewer.org/github/dec1costello/Golf/tree/main/TOUR_Championship_2011/)
+
+## **Dataset**
+
+Talk about the dataset and how r1+2 weaker. and nature of rough not nessacarly accounting for a bad lie
+
+## **Data Cleaning**
+
+Talk about how I shift the data
 
 ## [EDA](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/EDA.ipynb)
 
@@ -66,7 +74,15 @@ In Part 4, I explore the distribution of Strokes Gained vs Driving Distance Gain
 </div>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## [Expected Strokes Model](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb)
+## [Expected Strokes Model Selection]
+
+Talk about the dataset and how r1+2 weaker
+
+## [Expected Strokes Model Explainability]
+
+Talk about the dataset and how r1+2 weaker
+
+## [Expected Strokes Stacked Model](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb)
 
 In Part 5, I explore the relationship between Distance to the Pin & Lie vs Strokes to hole out at the Tour Championship. I Ensemble the top  preforming models together using a [Stack](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.StackingRegressor.html) to minimize [Bias](https://towardsdatascience.com/a-quickstart-guide-to-uprooting-model-bias-f4465c8e84bc) and [Variance](https://x.com/akshay_pachaar/status/1703757251474063861?s=20). This iterative process maximized predictive accuracy of Expected Strokes(xS)
 
