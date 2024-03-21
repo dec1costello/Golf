@@ -37,7 +37,7 @@ With an interest in sports analytics, I hope to contribute meaningful insights t
 
 ## **Dataset**
 
-Talk about the dataset and how r1+2 weaker. but not really because i dont think the field gets cut becuase its the championshp and nature of rough not nessacarly accounting for a bad lie, learn more about it from these [docs](espn.com). INcomplete dataset becuase [no playoff data](https://www.youtube.com/watch?v=vRjNR1T81VE).
+In this dataset, note that the PGA Championship differs from other tournaments as there's no second cut after the third round, ensuring all players compete in all four rounds. Typically, rounds 1 and 2 might show weaker performance elsewhere due to the cut's impact, but here we expect more consistent performance across all rounds. Also, the dataset lacks [data from the playoff that occured](https://www.youtube.com/watch?v=vRjNR1T81VE), which is crucial for understanding the tournament's conclusion.
 
 ## [EDA](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/EDA.ipynb)
 
