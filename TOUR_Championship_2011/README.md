@@ -47,7 +47,7 @@ I explore the data and start to feature engineer to help understand, clean, and 
 
 In this analysis, I examine the distribution of Strokes Gained for each round of the Championship, providing insights into player performance trends throughout the tournament. By analyzing the Strokes Gained data, we gain valuable insights into how players fared across different rounds, shedding light on key patterns and trends in their gameplay strategies.
 
-#### Main Insights
+#### Key Insights
 
 * All rounds have a promising mean of 0
 * Round 3 seemed to be the most chaotic, as there was a significant variance in player performance throughout the day.
@@ -62,7 +62,7 @@ In this analysis, I examine the distribution of Strokes Gained for each round of
 
 In this analysis, I investigate the distribution of Strokes Gained for each hole of every round of the Championship. Notably, Mahan ties Haas in Strokes Gained on the 72nd hole, a significant moment in the tournament. However, Haas ultimately secured victory in the playoffs, as documented [here!](https://www.espn.com/golf/leaderboard?tournamentId=917)
 
-#### Main Insights
+#### Key Insights
 
 * Player apprear to contiune to play relative to thier initial preformance of round 1
 * Poorly preforming players seem to completey give up come the back 9 of round 3
@@ -77,7 +77,7 @@ In this analysis, I investigate the distribution of Strokes Gained for each hole
 
 In Part 4, I explore the distribution of Strokes Gained vs Driving Distance Gained (DG) and Driving Accuracy Gained (AG) for each drive of the Championship. Both DG and SG are normalized per hole before totalling. Happy to say my analysis aligns with [Data Golf's Course Fit Tool](https://datagolf.com/course-fit-tool), in that AG appears to be an important facor for preforming at East Lake Golf Club.
 
-#### Main Insights
+#### Key Insights
 
 * AG has a strong correlation to SG
 * DG has only a slight correlation to SG
@@ -95,7 +95,7 @@ In Part 4, I explore the distribution of Strokes Gained vs Driving Distance Gain
 
 Although the training data is discrete, because we want a contious predictions I had to choose between regression models. I used Lazy Predict to intially gauge. then I tune the top 5 with [Optuna](https://optuna.org/)
 
-#### Main Insights
+#### Key Insights
 
 * The GradientBoostingRegressor and HistGradientBoostingRegressor models preformed the best
 * If I were to have to constantly retrain the model I would avoid the MLPRegressor as it has a long train time
