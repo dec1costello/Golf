@@ -119,7 +119,7 @@ While the training data is discrete, for continuous predictions, I faced the tas
 
 ### Model Explainability
 
-For model explainability, I utilized the [SHap library](https://shap.readthedocs.io/en/latest/example_notebooks/overviews/An%20introduction%20to%20explainable%20AI%20with%20Shapley%20values.html) to analyze the stack model's estimators and base models. Additionally, I employed the [Lime library](https://github.com/marcotcr/lime) to train the best-performing model, GradientBoostingRegressor, which served as the final estimator or meta-model in the stack model. Below, I present the SHap charts for both the putting and approach models using LGBMRegressor.
+For model explainability, I utilized the [SHap library](https://shap.readthedocs.io/en/latest/example_notebooks/overviews/An%20introduction%20to%20explainable%20AI%20with%20Shapley%20values.html) to analyze the stack model's estimators and base models, offering insights into feature importance. However, to ensure a comprehensive analysis, I also delved into [Permutation importance](https://medium.com/@syoussefi600/permutation-importance-vs-impurity-based-feature-importance-1c1a8d027479) as an additional metric in the notebook. This approach allowed for a thorough examination of feature importance from different perspectives, enriching our understanding of the model's predictive behavior. Moreover, I employed the [Lime library](https://github.com/marcotcr/lime)  to train the best-performing model, GradientBoostingRegressor, which served as the final estimator or meta-model in the stack model. Below, you'll find the SHap charts for both the putting and approach models using LGBMRegressor.
 
 #### Key Insight
 
