@@ -66,7 +66,7 @@ In Part 3, I explore the distribution of Strokes Gained for each hole of each ro
 
 ### [SG per Drive](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb)
 
-In Part 4, I explore the distribution of Strokes Gained vs Driving Distance Gained (DG) and Driving Accuracy Gained (AG) for each drive of the Championship. Happy to say my analysis aligns with [Data Golf's Course Fit Tool](https://datagolf.com/course-fit-tool), in that AG appears to be an important facor for preforming at East Lake Golf Club.
+In Part 4, I explore the distribution of Strokes Gained vs Driving Distance Gained (DG) and Driving Accuracy Gained (AG) for each drive of the Championship. Happy to say my analysis aligns with [Data Golf's Course Fit Tool](https://datagolf.com/course-fit-tool), in that AG appears to be an important facor for preforming at East Lake Golf Club. NOTE I adjusted all drived per hole before totalling the DG
 <div align="center">
   <a href="https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb">
     <img src="https://github.com/dec1costello/Golf/assets/79241861/2eabd308-cee6-4f72-af2b-6dcea8e6bd86" alt="Event Scatter" style="width:100%">
@@ -76,22 +76,30 @@ In Part 4, I explore the distribution of Strokes Gained vs Driving Distance Gain
 
 ## Expected Strokes Model
 
-### [Model Selection]
+### Model Selection
 
 Although the training data is discrete, because we want a contious predictions I had to choose between regression models. I used Lazy Predict to intially gauge
 
-| Model  | 0.25 | Threshold  | 0.25 |
-|------------|------|------------|------|
-| Precision  | 0.7  | Precision  | 0.7  |
-| Recall     | 0.9  | Recall     | 0.9  |
-| F1 Score   | 0.85 | F1 Score   | 0.85 |
-| Alert Rate | 0.02 | F1 Score   | 0.85 |
+| Model  | Adjusted R-Squared | R-Squared	| RMSE | Time Taken |
+|------------|------|------------|------|------|
+| GradientBoostingRegressor         | 0.85  | 0.85  | 0.46  | 0.93  |
+| HistGradientBoostingRegressor     | 0.85  | 0.85     | 0.46  | 0.60  |
+| LGBMRegressor                     | 0.85 | 0.85   | 0.47 | 0.14  |
+| MLPRegressor                      | 0.84 | 0.84   | 0.48 | 5.23  |
+| KNeighborsRegressor               | 0.82  | 0.83  | 0.50  | 0.16  |
+| AdaBoostRegressor                 | 0.82  | 0.83     | 0.50  | 0.49  |
+| RandomForestRegressor             | 0.82 | 0.82   | 0.85 | 0.7  |
+| XGBRegressor                      | 0.82 | 0.82   | 0.85 | 0.7  |
+| BaggingRegressor                  | 0.81  | 0.81  | 0.7  | 0.7  |
+| NuSVR                             | 0.81  | 0.81     | 0.9  | 0.7  |
+| ExtraTreesRegressor	              | 0.80 | 0.80   | 0.85 | 0.7  |
+| SVR                               | 0.80 | 0.80   | 0.85 | 0.7  |
 
 ### Model Explainability
 
 Talk about the dataset and how r1+2 weaker
 
-## [Model Arch](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb)
+### [Model Arch](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb)
 
 In Part 5, I explore the relationship between Distance to the Pin & Lie vs Strokes to hole out at the Tour Championship. I Ensemble the top  preforming models together using a [Stack](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.StackingRegressor.html) to minimize [Bias](https://towardsdatascience.com/a-quickstart-guide-to-uprooting-model-bias-f4465c8e84bc) and [Variance](https://x.com/akshay_pachaar/status/1703757251474063861?s=20). This iterative process maximized predictive accuracy of Expected Strokes(xS)
 
@@ -118,11 +126,8 @@ graph TB
 
       GBR_StackingRegressor --> Prediction;
 ```
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-## [xS Model Preformance](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb)
+### [xS Model Preformance](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb)
 
 These charts help evaluate the model by showing how predicted values compare to actual ones and revealing patterns in prediction errors. The "Predicted vs Actual" chart checks overall accuracy, while the "Predicted vs Residual" chart highlights patterns in errors. The histogram in "Normality of Residuals" assesses if errors follow a normal distribution, crucial for reliable predictions.
 <div align="center">
@@ -132,7 +137,7 @@ These charts help evaluate the model by showing how predicted values compare to 
 </div>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## [SG per Shot](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb)
+### [SG per Shot](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb)
 
 Now that we have a reliable model, we can use it to identify a player's strengths and weaknesses by subtracting Expected Strokes (xS) from the result of each shot to give us true Strokes Gained (SG). This plot displays Baddeley's SG by shot type, providing a clear visualization of his performance across different lies and distances.
 <div align="center">
