@@ -41,17 +41,16 @@ Talk about the dataset and how r1+2 weaker. but not really because i dont think 
 
 ## [EDA](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/EDA.ipynb)
 
-In Part 1, I explore the data and start to feature engineer to help understand, clean, and refine the dataset. It guides model choice and assumption validation, while also revealing insights through visualization. By addressing data quality and understanding patterns early, here I establish a strong foundation for the rest of my project.
+I explore the data and start to feature engineer to help understand, clean, and refine the dataset. It guides model choice and assumption validation, while also revealing insights through visualization. By addressing data quality and understanding patterns early, here I establish a strong foundation for the rest of my project.
 
 ### [SG per Round](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/StrokesGainedPerRound.ipynb)
 
-In Part 2, I explore the distribution of Strokes Gained for each round of the Championship.
+Here I explore the distribution of Strokes Gained for each round of the Championship.
 
 #### Main Insights
 
+* All rounds have a promising mean of 0
 * Round 3 seemed to be the most chaotic, as there was a significant variance in player performance throughout the day.
-* Round 3 seemed to be the most chaotic, as there was a significant variance in player performance throughout the day.
-
 
 <div align="center">
   <a href="https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb">
@@ -61,7 +60,12 @@ In Part 2, I explore the distribution of Strokes Gained for each round of the Ch
 
 ### [SG per Hole](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/ImprovedStrokesGainedPerRoundPerHole.ipynb)
 
-In Part 3, I explore the distribution of Strokes Gained for each hole of each round of the Championship. Mahan ties Haas in SG on the 72th hole, but [Haas won in the playoffs](https://www.espn.com/golf/leaderboard?tournamentId=917)
+I explore the distribution of Strokes Gained for each hole of each round of the Championship. Mahan ties Haas in SG on the 72th hole, but [Haas won in the playoffs](https://www.espn.com/golf/leaderboard?tournamentId=917)
+
+#### Main Insights
+
+* Player apprear to contiune to play relative to thier initial preformance of round 1
+* Poorly preforming players seem to completey give up come the back 9 of round 3
 
 <div align="center">
   <a href="https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb">
@@ -72,6 +76,12 @@ In Part 3, I explore the distribution of Strokes Gained for each hole of each ro
 ### [SG per Drive](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb)
 
 In Part 4, I explore the distribution of Strokes Gained vs Driving Distance Gained (DG) and Driving Accuracy Gained (AG) for each drive of the Championship. Happy to say my analysis aligns with [Data Golf's Course Fit Tool](https://datagolf.com/course-fit-tool), in that AG appears to be an important facor for preforming at East Lake Golf Club. NOTE I adjusted all drived per hole before totalling the DG
+
+#### Main Insights
+
+* AG has a strong correlation to SG
+* DG has only a slight correlation to SG
+
 <div align="center">
   <a href="https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb">
     <img src="https://github.com/dec1costello/Golf/assets/79241861/2eabd308-cee6-4f72-af2b-6dcea8e6bd86" alt="Event Scatter" style="width:100%">
@@ -84,6 +94,11 @@ In Part 4, I explore the distribution of Strokes Gained vs Driving Distance Gain
 ### Model Selection
 
 Although the training data is discrete, because we want a contious predictions I had to choose between regression models. I used Lazy Predict to intially gauge. then I tune the top 5 with [Optuna](https://optuna.org/)
+
+#### Main Insights
+
+* The GradientBoostingRegressor and HistGradientBoostingRegressor models preformed the best
+* If I were to have to constantly retrain the model I would avoid the MLPRegressor as it has a long train time
 
 | Model  | Adjusted R-Squared | R-Squared	| RMSE | Time Taken |
 |------------|------|------------|------|------|
