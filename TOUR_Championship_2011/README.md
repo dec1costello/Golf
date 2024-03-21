@@ -37,7 +37,7 @@ With an interest in sports analytics, I hope to contribute meaningful insights t
 
 ## **Dataset**
 
-In this dataset, note that the PGA Championship differs from other tournaments as there's no second cut after the third round, ensuring all players compete in all four rounds. Typically, rounds 1 and 2 might show weaker performance elsewhere due to the cut's impact, but here we expect more consistent performance across all rounds. Also, the dataset lacks [data from the playoff that occured](https://www.youtube.com/watch?v=vRjNR1T81VE), which is crucial for understanding the tournament's conclusion.
+In this dataset, note that the PGA Championship differs from other tournaments as there's no second cut after the third round, ensuring all players compete in all four rounds. Typically, rounds 1 and 2 might show weaker performance elsewhere due to the cut's impact, but here we expect more consistent performance across all rounds. Also, the dataset lacks [data from the playoff that occured](https://www.youtube.com/watch?v=vRjNR1T81VE), which is crucial for understanding the tournament's conclusion. Furthermore, it's essential to recognize that just because a player lands in the rough, it doesn't necessarily mean they're in a disadvantageous position. While the rough typically presents a challenge, the ball could be propped up or the golfer might have strategically taken this route.
 
 ## [EDA](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/EDA.ipynb)
 
@@ -120,6 +120,12 @@ While the training data is discrete, for continuous predictions, I faced the tas
 ### Model Explainability
 
 For model explainability, I utilized the [SHap library](https://shap.readthedocs.io/en/latest/example_notebooks/overviews/An%20introduction%20to%20explainable%20AI%20with%20Shapley%20values.html) to analyze the stack model's estimators and base models. Additionally, I employed the [Lime library](https://github.com/marcotcr/lime) to train the best-performing model, GradientBoostingRegressor, which served as the final estimator or meta-model in the stack model. Below, I present the SHap charts for both the putting and approach models using LGBMRegressor.
+
+#### Key Insights
+
+* Super surprised to see distance from edge matters more than distance to pin for putting, curious if this would be the case if I had a larger dataset
+  
+
 ### [Model Arch](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb)
 
 In Part 5, I explore the relationship between Distance to the Pin & Lie vs Strokes to hole out at the Tour Championship. I Ensemble the top  preforming models together using a [Stack](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.StackingRegressor.html) to minimize [Bias](https://towardsdatascience.com/a-quickstart-guide-to-uprooting-model-bias-f4465c8e84bc) and [Variance](https://x.com/akshay_pachaar/status/1703757251474063861?s=20). This iterative process maximized predictive accuracy of Expected Strokes(xS)
