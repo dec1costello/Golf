@@ -23,11 +23,11 @@
 
 ## **Objectives**
 
-Welcome to my analysis of the **2011 TOUR Championship** at [East Lake Golf Club!](https://www.eastlakegolfclub.com/course/) The main objective of this project is to:
+Welcome to my analysis of the 2011 TOUR Championship at East Lake Golf Club, the main objective of this project is to:
 
 > **Develop an Expected Strokes Model to identify a player's strengths and weaknesses**
 
-With an interest in sports analytics, I hope to contribute meaningful insights to the golf community. I chose the **2011 TOUR Championship** because it was the only complete shot level data set I could [find](https://github.com/scottflaska/pga-shotlink/tree/main/data/sample_download). If you see a complete shot level dataset floating around feel free to send it my way! To get a better feel for the visual details, I encourage you to check out the interactive visuals on  [NBViewer!](https://nbviewer.org/github/dec1costello/Golf/tree/main/TOUR_Championship_2011/)
+With an interest in sports analytics, I hope to contribute meaningful insights to the golf community. I chose the 2011 TOUR Championship because it was the only complete shot level data set I could [find](https://github.com/scottflaska/pga-shotlink/tree/main/data/sample_download). If you see a complete shot level dataset floating around feel free to send it my way! To get a better feel for the visual details, I encourage you to check out the interactive visuals on  [NBViewer!](https://nbviewer.org/github/dec1costello/Golf/tree/main/TOUR_Championship_2011/)
 
 ## **Dataset**
 
