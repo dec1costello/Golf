@@ -15,7 +15,12 @@
     <li><a href="#SG-per-Drive">SG per Drive</a></li>
     </ol>
     <li><a href="#Expected-Strokes-Model">Expected Strokes Model</a></li>
-    <li><a href="#xS-Model-Preformance">xS Model Preformance</a></li>
+    <ol>
+    <li><a href="#Model-Selection">xS Model Selection</a></li>
+    <li><a href="#Model-Explainability">xS Model Explainability</a></li>
+    <li><a href="#Model-Arch">xS Model Arch</a></li>
+    <li><a href="#Model-Preformance">xS Model Preformance</a></li>
+    </ol>
     <li><a href="#SG-per-Shot">SG per Shot</a></li>
     <li><a href="#SG-per-Location">SG per Location</a></li>
     <li><a href="#Roadmap">Roadmap</a></li>
@@ -28,11 +33,11 @@ Welcome to my analysis of the 2011 TOUR Championship at East Lake Golf Club, the
 
 > **Develop an expected strokes model to identify player preformance**
 
-With an interest in sports analytics, I hope to contribute meaningful insights to the golf community. I chose the 2011 TOUR Championship because it was the only complete shot level data set I could [find](https://github.com/scottflaska/pga-shotlink/tree/main/data/sample_download). If you see a complete shot level dataset floating around feel free to send it my way! To get a better feel for the visual details, I encourage you to check out the interactive visuals on  [NBViewer!](https://nbviewer.org/github/dec1costello/Golf/tree/main/TOUR_Championship_2011/)
+With an interest in sports analytics, I hope to contribute meaningful insights to the golf community. Although the 2011 TOUR Championship was over 10 years ago and the rules of the Championship have now changed, it was the only complete shot level data set I could [find](https://github.com/scottflaska/pga-shotlink/tree/main/data/sample_download). If you see a complete shot level dataset floating around feel free to send it my way! To get a better feel for the visual details, I encourage you to check out the interactive visuals on  [NBViewer!](https://nbviewer.org/github/dec1costello/Golf/tree/main/TOUR_Championship_2011/)
 
 ## **Dataset**
 
-Talk about the dataset and how r1+2 weaker. and nature of rough not nessacarly accounting for a bad lie, learn more about it from these [docs](espn.com)
+Talk about the dataset and how r1+2 weaker. but not really because i dont think the field gets cut becuase its the championshp and nature of rough not nessacarly accounting for a bad lie, learn more about it from these [docs](espn.com). INcomplete dataset becuase [no playoff data](https://www.youtube.com/watch?v=vRjNR1T81VE).
 
 ## [EDA](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/EDA.ipynb)
 
@@ -51,7 +56,7 @@ In Part 2, I explore the distribution of Strokes Gained for each round of the Ch
 
 ### [SG per Hole](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/ImprovedStrokesGainedPerRoundPerHole.ipynb)
 
-In Part 3, I explore the distribution of Strokes Gained for each hole of each round of the Championship.
+In Part 3, I explore the distribution of Strokes Gained for each hole of each round of the Championship. Mahan ties Haas in SG on the 72th hole, but [Haas won in the playoffs](https://www.espn.com/golf/leaderboard?tournamentId=917)
 
 <div align="center">
   <a href="https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb">
@@ -73,14 +78,14 @@ In Part 4, I explore the distribution of Strokes Gained vs Driving Distance Gain
 
 ### [Model Selection]
 
-Although the training data is discrete, because we want a contious predictions I had to choose between regression models
+Although the training data is discrete, because we want a contious predictions I had to choose between regression models. I used Lazy Predict to intially gauge
 
-| Threshold  | 0.25 |
-|------------|------|
-| Precision  | 0.7  |
-| Recall     | 0.9  |
-| F1 Score   | 0.85 |
-| Alert Rate | 0.02 |
+| Model  | 0.25 | Threshold  | 0.25 |
+|------------|------|------------|------|
+| Precision  | 0.7  | Precision  | 0.7  |
+| Recall     | 0.9  | Recall     | 0.9  |
+| F1 Score   | 0.85 | F1 Score   | 0.85 |
+| Alert Rate | 0.02 | F1 Score   | 0.85 |
 
 ### Model Explainability
 
@@ -162,5 +167,6 @@ Now that we have a reliable model, we can use it to identify a player's strength
     - [ ] [Refer To](https://colab.research.google.com/github/AllenDowney/ThinkBayes2/blob/master/examples/hockey.ipynb#scrollTo=B-c6bb9wO-Cs)
     - [ ] [Watch](https://www.youtube.com/watch?v=Zi6N3GLUJmw)
     - [ ] [Utilize](https://colab.research.google.com/github/AllenDowney/ThinkBayes2/)
+- [ ] Dockerize & Deploy
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
