@@ -45,12 +45,17 @@ In Part 1, I explore the data and start to feature engineer to help understand, 
 
 ### [SG per Round](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/StrokesGainedPerRound.ipynb)
 
-In Part 2, I explore the distribution of Strokes Gained for each round of the Championship. Round 3 seemed to be the most chaotic, as there was a significant variance in player performance throughout the day.
+In Part 2, I explore the distribution of Strokes Gained for each round of the Championship.
+
+#### Main Insights
+
+* Round 3 seemed to be the most chaotic, as there was a significant variance in player performance throughout the day.
+* Round 3 seemed to be the most chaotic, as there was a significant variance in player performance throughout the day.
 
 
 <div align="center">
   <a href="https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb">
-    <img src="https://github.com/dec1costello/Golf/assets/79241861/275e7705-7748-49e2-b9c1-e7b24d40066d" alt="Event Scatter" style="width:100%">
+    <img src="https://github.com/dec1costello/Golf/assets/79241861/275e7705-7748-49e2-b9c1-e7b24d40066d" alt="Event Scatter" style="width80%">
   </a>
 </div>
 
