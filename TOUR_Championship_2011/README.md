@@ -6,9 +6,9 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#Overview">Overview</a></li>
-    <li><a href="#Notes">Notes</a></li>
-    <li><a href="#Pending-Questions">Pending Questions</a></li>
+    <li><a href="#Objectives">Objectives</a></li>
+    <li><a href="#Dataset">Dataset</a></li>
+    <li><a href="#Data-Cleaning">Data Cleaning</a></li>
     <li><a href="#EDA">EDA</a></li>
     <li><a href="#SG-per-Round">SG per Round</a></li>
     <li><a href="#SG-per-Hole">SG per Hole</a></li>
