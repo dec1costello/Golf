@@ -93,12 +93,12 @@ In Part 4, I explore the distribution of Strokes Gained vs Driving Distance Gain
 
 ### Model Selection
 
-Although the training data is discrete, because we want a contious predictions I had to choose between regression models. I used Lazy Predict to intially gauge. then I tune the top 5 with [Optuna](https://optuna.org/)
+While the training data is discrete, for continuous predictions, I faced the task of selecting between regression models. Initially, I employed [Lazy Predict](https://lazypredict.readthedocs.io/en/latest/) to assess various model options comprehensively. Subsequently, I fine-tuned each model's hyperparameters using [Optuna](https://optuna.org/) for enhanced performance.
 
 #### Key Insights
 
 * The GradientBoostingRegressor and HistGradientBoostingRegressor models preformed the best
-* If I were to have to constantly retrain the model I would avoid the MLPRegressor as it has a long train time
+* If I were to have to constantly retrain the model I would avoid the MLPRegressor as it takes forever
 
 | Model  | Adjusted R-Squared | R-Squared	| RMSE | Time Taken |
 |------------|------|------------|------|------|
@@ -108,12 +108,12 @@ Although the training data is discrete, because we want a contious predictions I
 | MLPRegressor                      | 0.84 | 0.84   | 0.48 | 5.23  |
 | KNeighborsRegressor               | 0.82  | 0.83  | 0.50  | 0.16  |
 | AdaBoostRegressor                 | 0.82  | 0.83     | 0.50  | 0.49  |
-| RandomForestRegressor             | 0.82 | 0.82   | 0.85 | 0.7  |
-| XGBRegressor                      | 0.82 | 0.82   | 0.85 | 0.7  |
-| BaggingRegressor                  | 0.81  | 0.81  | 0.7  | 0.7  |
-| NuSVR                             | 0.81  | 0.81     | 0.9  | 0.7  |
-| ExtraTreesRegressor	              | 0.80 | 0.80   | 0.85 | 0.7  |
-| SVR                               | 0.80 | 0.80   | 0.85 | 0.7  |
+| RandomForestRegressor             | 0.82 | 0.82   | 0.50 | 3.46  |
+| XGBRegressor                      | 0.82 | 0.82   | 0.50 | 0.24  |
+| BaggingRegressor                  | 0.81  | 0.81  | 0.52  | 0.37  |
+| NuSVR                             | 0.81  | 0.81     | 0.52  | 3.58  |
+| ExtraTreesRegressor	              | 0.80 | 0.80   | 0.53 | 2.02  |
+| SVR                               | 0.80 | 0.80   | 0.53 | 3.35  |
 
 ### Model Explainability
 
