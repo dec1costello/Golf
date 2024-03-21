@@ -78,7 +78,7 @@ In Part 4, I explore the distribution of Strokes Gained vs Driving Distance Gain
 
 ### Model Selection
 
-Although the training data is discrete, because we want a contious predictions I had to choose between regression models. I used Lazy Predict to intially gauge
+Although the training data is discrete, because we want a contious predictions I had to choose between regression models. I used Lazy Predict to intially gauge. then I tune the top 5 with [Optuna](https://optuna.org/)
 
 | Model  | Adjusted R-Squared | R-Squared	| RMSE | Time Taken |
 |------------|------|------------|------|------|
@@ -136,6 +136,8 @@ These charts help evaluate the model by showing how predicted values compare to 
   </a>
 </div>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Applying xS Model
 
 ### [SG per Shot](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb)
 
