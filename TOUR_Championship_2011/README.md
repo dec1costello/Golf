@@ -121,7 +121,7 @@ While the training data is discrete, for continuous predictions, I faced the tas
 
 For model explainability, I utilized the [SHap library](https://shap.readthedocs.io/en/latest/example_notebooks/overviews/An%20introduction%20to%20explainable%20AI%20with%20Shapley%20values.html) to analyze the stack model's estimators and base models. Additionally, I employed the [Lime library](https://github.com/marcotcr/lime) to train the best-performing model, GradientBoostingRegressor, which served as the final estimator or meta-model in the stack model. Below, I present the SHap charts for both the putting and approach models using LGBMRegressor.
 
-#### Key Insights
+#### Key Insight
 
 * Super surprised to see distance from edge matters more than distance to pin for putting, curious if this would be the case if I had a larger dataset
   
