@@ -97,10 +97,6 @@ In Part 4, I explore the distribution of Strokes Gained vs Driving Distance Gain
 
 The Stacked Expected Strokes Model leverages the power of ensemble learning by combining predictions from multiple base models to enhance accuracy and robustness. Notably, I've developed separate models for putting and non-putting scenarios, utilizing different input features tailored to each situation. This approach allows for more precise predictions by optimizing the model's focus on specific aspects of gameplay, ultimately leading to improved performance and insights in golf analytics. Furthermore, this model will eventually enable a granular analysis of shot-by-shot strokes gained, a significant departure from previous hole-by-hole evaluations. By harnessing the Stacked Expected Strokes Model's predictive capabilities, I'll unlock the ability to scrutinize each shot's impact on overall performance, offering unprecedented insights into golf analytics. Additionally, I'm unconcerned about data leakage since I'll be predicting continuous variables while training on discrete data, ensuring the model's integrity and effectiveness in real-world applications.
 
-### Model Stratification
-
-#### Key Insight
-
 ### Model Selection
 
 While the training data is discrete, for continuous predictions, I faced the task of selecting between regression models. Initially, I employed [Lazy Predict](https://lazypredict.readthedocs.io/en/latest/) to assess various model options comprehensively. Subsequently, I fine-tuned each model's hyperparameters using [Optuna](https://optuna.org/) for enhanced performance.
