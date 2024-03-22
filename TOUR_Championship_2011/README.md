@@ -137,7 +137,12 @@ For model explainability, I utilized the [SHap library](https://shap.readthedocs
 #### Key Insight
 
 * Super surprised to see distance from edge matters more than distance to pin for putting, curious if this would be the case if I had a larger dataset
-  
+
+<div align="center">
+  <a href="https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb">
+    <img src="https://github.com/dec1costello/Golf/assets/79241861/0a18b4a4-5c05-480a-9fae-18280f365c27" alt="Event Scatter" style="width:100%">
+  </a>
+</div>
 
 ### [Model Arch](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb)
 
