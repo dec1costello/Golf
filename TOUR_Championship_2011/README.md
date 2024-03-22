@@ -41,7 +41,7 @@ In this dataset, note that the PGA Championship differs from other tournaments a
 
 ## [EDA](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/EDA.ipynb)
 
-I explore the data and start to feature engineer to help understand, clean, and refine the dataset. It guides model choice and assumption validation, while also revealing insights through visualization. By addressing data quality and understanding patterns early, here I establish a strong foundation for the rest of my project.
+I explore the data and start to feature engineer to help understand, clean, and refine the dataset. It guides model choice and assumption validation, while also revealing insights through visualization. By addressing data quality and understanding patterns early, here I establish a strong foundation for the rest of my project. For example, before making a model to look at SG at a shot level basis, we can analyize SG at a round, hole, and drive basis by find the average score to help us make assumptions later.
 
 ### [SG per Round](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/StrokesGainedPerRound.ipynb)
 
@@ -89,9 +89,17 @@ In Part 4, I explore the distribution of Strokes Gained vs Driving Distance Gain
 </div>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Engineered Features
+
+#### Key Insight
+
 ## Expected Strokes Model
 
 The Stacked Expected Strokes Model leverages the power of ensemble learning by combining predictions from multiple base models to enhance accuracy and robustness. Notably, I've developed separate models for putting and non-putting scenarios, utilizing different input features tailored to each situation. This approach allows for more precise predictions by optimizing the model's focus on specific aspects of gameplay, ultimately leading to improved performance and insights in golf analytics. Furthermore, this model will eventually enable a granular analysis of shot-by-shot strokes gained, a significant departure from previous hole-by-hole evaluations. By harnessing the Stacked Expected Strokes Model's predictive capabilities, I'll unlock the ability to scrutinize each shot's impact on overall performance, offering unprecedented insights into golf analytics. Additionally, I'm unconcerned about data leakage since I'll be predicting continuous variables while training on discrete data, ensuring the model's integrity and effectiveness in real-world applications.
+
+### Model Stratification
+
+#### Key Insight
 
 ### Model Selection
 
@@ -116,6 +124,11 @@ While the training data is discrete, for continuous predictions, I faced the tas
 | NuSVR                             | 0.81  | 0.81     | 0.52  | 3.58  |
 | ExtraTreesRegressor	              | 0.80 | 0.80   | 0.53 | 2.02  |
 | SVR                               | 0.80 | 0.80   | 0.53 | 3.35  |
+
+
+### Model Hyper Parameterization
+
+#### Key Insight
 
 ### Model Explainability
 
