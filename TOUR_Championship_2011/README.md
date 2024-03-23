@@ -41,16 +41,16 @@ In this dataset, note that the PGA Championship differs from other tournaments a
 
 ## [EDA](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/EDA.ipynb)
 
-I explore the data and start to feature engineer to help understand, clean, and refine the dataset. It guides model choice and assumption validation, while also revealing insights through visualization. By addressing data quality and understanding patterns early, here I establish a strong foundation for the rest of my project. For example, before making a model to look at SG at a shot level basis, we can analyize SG at a round, hole, and drive basis by find the average score to help us make assumptions later.
+I explore the data and start to feature engineer to help understand, clean, and refine the dataset. It guides model choice and assumption validation, while also revealing insights through visualization. By addressing data quality and understanding patterns early, here I establish a strong foundation for the rest of my project. For example, we can start exploring SG at a round, hole, and drive level to help us make assumptions when we eventually build a model to look at SG at a shot level basis.
 
 ### [SG per Round](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/StrokesGainedPerRound.ipynb)
 
-In this analysis, I examine the distribution of Strokes Gained for each round of the Championship, providing insights into player performance trends throughout the tournament. By analyzing the Strokes Gained data, we gain valuable insights into how players fared across different rounds, shedding light on key patterns and trends in their gameplay strategies.
+In this analysis, I examine the distribution of Strokes Gained for each round of the Championship, providing insights into player performance trends throughout the tournament. By analyzing the Strokes Gained data, we gain valuable insights into how players fared across different rounds, shedding light on key patterns and trends in their gameplay strategies and tough pin locations.
 
 #### Key Insights
 
 * All rounds have a promising mean of 0
-* Round 3 seemed to be the most chaotic, as there was a significant variance in player performance throughout the day.
+* Round 3 seemed to be the most chaotic, as there was a significant variance in player performance throughout the day
 
 <div align="center">
   <a href="https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb">
@@ -61,12 +61,12 @@ In this analysis, I examine the distribution of Strokes Gained for each round of
 
 ### [SG per Hole](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/ImprovedStrokesGainedPerRoundPerHole.ipynb)
 
-In this analysis, I investigate the distribution of Strokes Gained for each hole of every round of the Championship. Notably, Mahan ties Haas in Strokes Gained on the 72nd hole, a significant moment in the tournament. However, Haas ultimately secured victory in the playoffs, as documented [here!](https://www.espn.com/golf/leaderboard?tournamentId=917).
+In this analysis, I investigate the distribution of Strokes Gained for each hole of every round of the Championship. Notably, Mahan ties Haas in Strokes Gained on the 72nd hole, a significant moment in the tournament. However, [Haas ultimately secured victory in the playoffs!](https://www.espn.com/golf/leaderboard?tournamentId=917)
 
 #### Key Insights
 
-* Player apprear to contiune to play relative to thier initial preformance of round 1.
-* Poorly preforming players seem to completey give up come the back 9 of round 3.
+* Player apprear to contiune to play relative to thier initial preformance of round 1
+* Poorly preforming players seem to completey give up come the back 9 of round 3
 
 <div align="center">
   <a href="https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb">
@@ -77,7 +77,7 @@ In this analysis, I investigate the distribution of Strokes Gained for each hole
 
 ### [SG per Drive](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb)
 
-In Part 4, I explore the distribution of Strokes Gained vs Driving Distance Gained (DG) and Driving Accuracy Gained (AG) for each drive of the Championship. Both DG and SG are normalized per hole before totalling. Happy to say my analysis aligns with [Data Golf's Course Fit Tool](https://datagolf.com/course-fit-tool), in that AG appears to be an important facor for preforming at East Lake Golf Club.
+In Part 4, I explore the distribution of Strokes Gained vs Driving Distance Gained (DG) and Driving Accuracy Gained (AG) for each drive of the Championship. Both DG and SG are normalized per hole before totalling. Happy to say my analysis aligns with [Data Golf's Course Fit Tool.](https://datagolf.com/course-fit-tool)
 
 #### Key Insights
 
@@ -94,11 +94,11 @@ In Part 4, I explore the distribution of Strokes Gained vs Driving Distance Gain
 
 ## Expected Strokes Model
 
-The Stacked Expected Strokes Model leverages the power of ensemble learning by combining predictions from multiple base models to enhance accuracy and robustness. Notably, I've developed separate models for putting and non-putting scenarios, utilizing different input features tailored to each situation. This approach allows for more precise predictions by optimizing the model's focus on specific aspects of gameplay, ultimately leading to improved performance and insights in golf analytics. Furthermore, this model will eventually enable a granular analysis of shot-by-shot strokes gained, a significant departure from previous hole-by-hole evaluations. By harnessing the Stacked Expected Strokes Model's predictive capabilities, I'll unlock the ability to scrutinize each shot's impact on overall performance, offering unprecedented insights into golf analytics. Additionally, I'm unconcerned about data leakage since I'll be predicting continuous variables while training on discrete data, ensuring the model's integrity and effectiveness in real-world applications.
+The Stacked Expected Strokes Model leverages the power of ensemble learning by combining predictions from multiple base models to enhance accuracy and robustness. Notably, I've developed separate models for putting and non-putting scenarios, utilizing different input features tailored to each situation. This approach allows for more precise predictions by optimizing the model's focus on specific aspects of gameplay, ultimately leading to improved performance and insights in golf analytics. Furthermore, this model will eventually enable a granular analysis of shot-by-shot strokes gained, a significant departure from previous hole-by-hole and round-by-round evaluations. By harnessing the Stacked Expected Strokes Model's predictive capabilities, I'll unlock the ability to scrutinize each shot's impact on overall performance, offering unprecedented insights into golfer preformance. Additionally, I'm unconcerned about data leakage since I'll be predicting continuous variables while training on discrete data, ensuring the model's integrity and effectiveness in real-world applications.
 
 ### Model Selection
 
-While the training data is discrete, for continuous predictions, I faced the task of selecting between regression models. Initially, I employed [Lazy Predict](https://lazypredict.readthedocs.io/en/latest/) to assess various model options comprehensively. Subsequently, I fine-tuned each model's hyperparameters using [Optuna](https://optuna.org/) for enhanced performance.
+While the training data is discrete, for continuous predictions, I faced the task of selecting between regression models. As with all my models, I was sure to stratify the training and testing data before predicting. Initially, I employed [Lazy Predict](https://lazypredict.readthedocs.io/en/latest/) to assess various model options comprehensively.
 
 #### Key Insight
 
@@ -119,13 +119,11 @@ While the training data is discrete, for continuous predictions, I faced the tas
 | NuSVR                             | 0.81  | 0.81     | 0.52  | 3.58  |
 | ExtraTreesRegressor	              | 0.80 | 0.80   | 0.53 | 2.02  |
 | SVR                               | 0.80 | 0.80   | 0.53 | 3.35  |
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ### Model Hyper Parameterization
 
-Model hyperparameterization plays a crucial role in optimizing machine learning models for performance and generalization. By systematically searching through the hyperparameter space, we can find the combination of hyperparameters that yields the best model performance on validation data. In this project, I leveraged the [Optuna](https://optuna.org/#dashboard) library for hyperparameter optimization, enabling an efficient and automated search for the optimal hyperparameters of the models. This proactive approach ensures that our models are fine-tuned to achieve their highest potential performance, leading to better predictive accuracy and robustness
+Model hyperparameterization plays a crucial role in optimizing machine learning models for performance and generalization. By systematically searching through the hyperparameter space, we can find the combination of hyperparameters that yields the best model performance on validation data. In this project, I leveraged the [Optuna](https://optuna.org/#dashboard) library for Bayesian optimization, enabling an efficient and automated search for the optimal hyperparameters of the models. This proactive approach ensures that our models are fine-tuned to achieve their highest potential performance, leading to better predictive accuracy and robustness.
 
 #### Key Insight
 * Hyper parameter tuning greatly improved each model of my stacking regressor
@@ -142,7 +140,7 @@ Model hyperparameterization plays a crucial role in optimizing machine learning 
 For model explainability, I utilized the [SHap library](https://shap.readthedocs.io/en/latest/example_notebooks/overviews/An%20introduction%20to%20explainable%20AI%20with%20Shapley%20values.html) to analyze the stack model's estimators and base models, offering insights into feature importance. However, to ensure a comprehensive analysis, I also delved into [Permutation importance](https://medium.com/@syoussefi600/permutation-importance-vs-impurity-based-feature-importance-1c1a8d027479) as an additional metric in the notebook. This approach allowed for a thorough examination of feature importance from different perspectives, enriching our understanding of the model's predictive behavior. Moreover, I employed the [Lime library](https://github.com/marcotcr/lime)  to train the best-performing model, GradientBoostingRegressor, which served as the final estimator or meta-model in the stack model. Below, you'll find the SHap charts for both the putting and approach models using LGBMRegressor.
 
 #### Key Insight
-* Super surprised to see distance from edge matters more than distance to pin for putting, curious if this would be the case if I had a larger dataset.
+* Super surprised to see distance from edge matters more than distance to pin for putting, curious if this would be the case if I had a larger dataset
 
 <div align="center">
   <a href="https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb">
@@ -157,7 +155,7 @@ In Part 5, I explore the relationship between Distance to the Pin & Lie vs Strok
 
 #### Key Insight
 
-* Excited to use [ML Flow](https://medium.com/infer-qwak/building-an-end-to-end-mlops-pipeline-with-open-source-tools-d8bacbf4184f) to test out the preformance of different model architectures.
+* Excited to use [ML Flow](https://medium.com/infer-qwak/building-an-end-to-end-mlops-pipeline-with-open-source-tools-d8bacbf4184f) to test out the preformance of different model architectures
 
 ```mermaid
 graph TB
@@ -209,7 +207,7 @@ Now that we have a reliable model, we can use it to identify a player's strength
 
 #### Key Insight
 
-* Excited to document the number of shots from each condition as well as the mean distance and standard deviation to the hole for each Shot Type bucket (plan to label it in the plot). This way we could see if he truely underperform from the rough from that 150 – 200 yardage or did he just have only a few shots and they ended up being in the top end of the bucket.
+* Excited to document the number of shots from each condition as well as the mean distance and standard deviation to the hole for each Shot Type bucket (plan to label it in the plot). This way we could see if he truely underperform from the rough from that 150 – 200 yardage or did he just have only a few shots and they ended up being in the top end of the bucket
 
 <div align="center">
   <a href="https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb">
