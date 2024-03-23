@@ -128,7 +128,7 @@ While the training data is discrete, for continuous predictions, I faced the tas
 Model hyperparameterization plays a crucial role in optimizing machine learning models for performance and generalization. By systematically searching through the hyperparameter space, we can find the combination of hyperparameters that yields the best model performance on validation data. In this project, I leveraged the [Optuna](https://optuna.org/#dashboard) library for hyperparameter optimization, enabling an efficient and automated search for the optimal hyperparameters of the models. This proactive approach ensures that our models are fine-tuned to achieve their highest potential performance, leading to better predictive accuracy and robustness
 
 #### Key Insight
-* Hyper parameter tuning greatly helped each model of my stacking regressor improve
+* Hyper parameter tuning greatly improved each model of my stacking regressor
 
 <div align="center">
   <a href="https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb">
