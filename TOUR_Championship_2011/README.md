@@ -57,6 +57,7 @@ In this analysis, I examine the distribution of Strokes Gained for each round of
     <img src="https://github.com/dec1costello/Golf/assets/79241861/275e7705-7748-49e2-b9c1-e7b24d40066d" alt="Event Scatter" style="width80%">
   </a>
 </div>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### [SG per Hole](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/ImprovedStrokesGainedPerRoundPerHole.ipynb)
 
@@ -72,6 +73,7 @@ In this analysis, I investigate the distribution of Strokes Gained for each hole
     <img src="https://github.com/dec1costello/Golf/assets/79241861/5fb76665-1de7-4d00-a42d-370c6fc5a987" alt="Event Scatter" style="width:100%">
   </a>
 </div>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### [SG per Drive](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb)
 
@@ -89,9 +91,6 @@ In Part 4, I explore the distribution of Strokes Gained vs Driving Distance Gain
 </div>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Engineered Features
-
-#### Key Insight
 
 ## Expected Strokes Model
 
@@ -121,6 +120,8 @@ While the training data is discrete, for continuous predictions, I faced the tas
 | ExtraTreesRegressor	              | 0.80 | 0.80   | 0.53 | 2.02  |
 | SVR                               | 0.80 | 0.80   | 0.53 | 3.35  |
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ### Model Hyper Parameterization
 
@@ -139,6 +140,7 @@ For model explainability, I utilized the [SHap library](https://shap.readthedocs
     <img src="https://github.com/dec1costello/Golf/assets/79241861/06baf5fd-bce3-4135-abe3-d9ba3b178d33" alt="Event Scatter" style="width:100%">
   </a>
 </div>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### [Model Arch](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb)
 
@@ -171,6 +173,7 @@ graph TB
 
       GBR_StackingRegressor --> Prediction;
 ```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### [xS Model Preformance](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb)
 
