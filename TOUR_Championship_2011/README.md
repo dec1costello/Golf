@@ -19,7 +19,7 @@
     <li><a href="#Model-Selection">xS Model Selection</a></li>
     <li><a href="#Model-Hyper-Parameterization">xS Model Hyper Parameterization</a></li>
     <li><a href="#Model-Explainability">xS Model Explainability</a></li>
-    <li><a href="#Model-Arch">xS Model Arch</a></li>
+    <li><a href="#Model-Architecture">xS Model Architecture</a></li>
     <li><a href="#Model-Preformance">xS Model Preformance</a></li>
     </ol>
     <li><a href="#SG-per-Shot">SG per Shot</a></li>
@@ -150,7 +150,7 @@ For model explainability, I utilized the [SHap library](https://shap.readthedocs
 </div>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### [Model Arch](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb)
+### [Model Architecture](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb)
 
 In Part 5, I explore the relationship between Distance to the Pin & Lie vs Strokes to hole out at the Tour Championship. I Ensemble the top  preforming models together using a [Stack](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.StackingRegressor.html) to minimize [Bias](https://towardsdatascience.com/a-quickstart-guide-to-uprooting-model-bias-f4465c8e84bc) and [Variance](https://x.com/akshay_pachaar/status/1703757251474063861?s=20). This iterative process maximized predictive accuracy of Expected Strokes(xS).
 
