@@ -17,6 +17,7 @@
     <li><a href="#Expected-Strokes-Model">Expected Strokes Model</a></li>
     <ol>
     <li><a href="#Model-Selection">xS Model Selection</a></li>
+    <li><a href="#Model-Hyper-Parameterization">xS Model Hyper Parameterization</a></li>
     <li><a href="#Model-Explainability">xS Model Explainability</a></li>
     <li><a href="#Model-Arch">xS Model Arch</a></li>
     <li><a href="#Model-Preformance">xS Model Preformance</a></li>
@@ -137,7 +138,7 @@ Model hyperparameterization plays a crucial role in optimizing machine learning 
 
 ### Model Explainability
 
-For model explainability, I utilized the [SHap library](https://shap.readthedocs.io/en/latest/example_notebooks/overviews/An%20introduction%20to%20explainable%20AI%20with%20Shapley%20values.html) to analyze the stack model's estimators and base models, offering insights into feature importance. However, to ensure a comprehensive analysis, I also delved into [Permutation importance](https://medium.com/@syoussefi600/permutation-importance-vs-impurity-based-feature-importance-1c1a8d027479) as an additional metric in the notebook. This approach allowed for a thorough examination of feature importance from different perspectives, enriching our understanding of the model's predictive behavior. Moreover, I employed the [Lime library](https://github.com/marcotcr/lime)  to train the best-performing model, GradientBoostingRegressor, which served as the final estimator or meta-model in the stack model. Below, you'll find the SHap charts for both the putting and approach models using LGBMRegressor.
+For model explainability, I utilized the [SHap library](https://shap.readthedocs.io/en/latest/example_notebooks/overviews/An%20introduction%20to%20explainable%20AI%20with%20Shapley%20values.html) to analyze the stack model's estimators and base models, offering insights into feature importance. However, to ensure a comprehensive analysis, I also delved into [Permutation importance](https://medium.com/@syoussefi600/permutation-importance-vs-impurity-based-feature-importance-1c1a8d027479) as an additional metric in the notebook. This approach allowed for a thorough examination of feature importance from different perspectives, enriching our understanding of the model's predictive behavior. Fianlly, I employed the [Lime library](https://github.com/marcotcr/lime)  to evaluate the complete stacking regressor's feature importance. Below, you'll find the SHap charts for both the putting and approach models using LGBMRegressor.
 
 #### Key Insight
 * Super surprised to see distance from edge matters more than distance to pin for putting, curious if this would be the case if I had a larger dataset
