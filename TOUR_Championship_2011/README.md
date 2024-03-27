@@ -34,7 +34,7 @@ Welcome to my analysis of the 2011 TOUR Championship at East Lake Golf Club, the
 
 > **Develop an expected strokes model to identify player performance**
 
-I hope to contribute meaningful insights to the golf community. While the 2011 TOUR Championship occurred over a decade ago and the tournament's rules have since changed, it remains a valuable resource due to its comprehensive shot-level dataset. If you happen to come across another complete shot-level dataset, I would greatly appreciate it if you could share it with me! To delve deeper into the visual intricacies of this analysis, I encourage you to explore the interactive visuals on [NBViewer!](https://nbviewer.org/github/dec1costello/Golf/tree/main/TOUR_Championship_2011/)
+I hope to contribute meaningful insights to the golf community through this project. While the 2011 TOUR Championship occurred over a decade ago and the tournament's rules have since changed, it remains a valuable resource due to its comprehensive shot-level dataset. If you happen to come across another complete shot-level dataset, I would greatly appreciate it if you could share it with me! To delve deeper into the visual intricacies of this analysis, I encourage you to explore the interactive visuals on [NBViewer!](https://nbviewer.org/github/dec1costello/Golf/tree/main/TOUR_Championship_2011/)
 
 ## **Dataset**
 
