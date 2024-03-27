@@ -20,7 +20,7 @@
     <li><a href="#Model-Hyper-Parameterization">xS Model Hyper Parameterization</a></li>
     <li><a href="#Model-Explainability">xS Model Explainability</a></li>
     <li><a href="#Model-Architecture">xS Model Architecture</a></li>
-    <li><a href="#Model-Preformance">xS Model Preformance</a></li>
+    <li><a href="#Model-Performance">xS Model Performance</a></li>
     </ol>
     <li><a href="#SG-per-Shot">SG per Shot</a></li>
     <li><a href="#SG-per-Location">SG per Location</a></li>
@@ -66,8 +66,8 @@ In this analysis, I investigate the distribution of Strokes Gained for each hole
 
 #### Key Insights
 
-* Player apprear to contiune to play relative to thier initial preformance of round 1
-* Poorly preforming players seem to completey give up come the back 9 of round 3
+* Player apprear to contiune to play relative to thier initial performance of round 1
+* Poorly performing players seem to completey give up come the back 9 of round 3
 
 <div align="center">
   <a href="https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb">
@@ -95,7 +95,7 @@ In Part 4, I explore the distribution of Strokes Gained vs Driving Distance Gain
 
 ## Expected Strokes Model
 
-The Stacked Expected Strokes Model leverages the power of ensemble learning by combining predictions from multiple base models to enhance accuracy and robustness. Notably, I've developed separate models for putting and non-putting scenarios, utilizing different input features tailored to each situation. This approach allows for more precise predictions by optimizing the model's focus on specific aspects of gameplay, ultimately leading to improved performance and insights in golf analytics. Furthermore, this model will eventually enable a granular analysis of shot-by-shot strokes gained, a significant departure from previous hole-by-hole and round-by-round evaluations. By harnessing the Stacked Expected Strokes Model's predictive capabilities, I'll unlock the ability to scrutinize each shot's impact on overall performance, offering unprecedented insights into golfer preformance. Additionally, I'm unconcerned about data leakage since I'll be predicting continuous variables while training on discrete data, ensuring the model's integrity and effectiveness in real-world applications.
+The Stacked Expected Strokes Model leverages the power of ensemble learning by combining predictions from multiple base models to enhance accuracy and robustness. Notably, I've developed separate models for putting and non-putting scenarios, utilizing different input features tailored to each situation. This approach allows for more precise predictions by optimizing the model's focus on specific aspects of gameplay, ultimately leading to improved performance and insights in golf analytics. Furthermore, this model will eventually enable a granular analysis of shot-by-shot strokes gained, a significant departure from previous hole-by-hole and round-by-round evaluations. By harnessing the Stacked Expected Strokes Model's predictive capabilities, I'll unlock the ability to scrutinize each shot's impact on overall performance, offering unprecedented insights into golfer performance. Additionally, I'm unconcerned about data leakage since I'll be predicting continuous variables while training on discrete data, ensuring the model's integrity and effectiveness in real-world applications.
 
 ### Model Selection
 
@@ -103,7 +103,7 @@ While the training data is discrete, for continuous predictions, I faced the tas
 
 #### Key Insight
 
-* The GradientBoostingRegressor and HistGradientBoostingRegressor models preformed the best
+* The GradientBoostingRegressor and HistGradientBoostingRegressor models performed the best
 * If I were to have to constantly retrain the model I would avoid the MLPRegressor as it takes forever
 
 | Model  | Adjusted R-Squared | R-Squared	| RMSE | Time Taken |
@@ -152,11 +152,11 @@ For model explainability, I utilized the [SHap library](https://shap.readthedocs
 
 ### [Model Architecture](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb)
 
-In Part 5, I explore the relationship between Distance to the Pin & Lie vs Strokes to hole out at the Tour Championship. I Ensemble the top  preforming models together using a [Stack](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.StackingRegressor.html) to minimize [Bias](https://towardsdatascience.com/a-quickstart-guide-to-uprooting-model-bias-f4465c8e84bc) and [Variance](https://x.com/akshay_pachaar/status/1703757251474063861?s=20). This iterative process maximized predictive accuracy of Expected Strokes(xS).
+In Part 5, I explore the relationship between Distance to the Pin & Lie vs Strokes to hole out at the Tour Championship. I Ensemble the top  performing models together using a [Stack](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.StackingRegressor.html) to minimize [Bias](https://towardsdatascience.com/a-quickstart-guide-to-uprooting-model-bias-f4465c8e84bc) and [Variance](https://x.com/akshay_pachaar/status/1703757251474063861?s=20). This iterative process maximized predictive accuracy of Expected Strokes(xS).
 
 #### Key Insight
 
-* Excited to use [ML Flow](https://medium.com/infer-qwak/building-an-end-to-end-mlops-pipeline-with-open-source-tools-d8bacbf4184f) to test out the preformance of different model architectures
+* Excited to use [ML Flow](https://medium.com/infer-qwak/building-an-end-to-end-mlops-pipeline-with-open-source-tools-d8bacbf4184f) to test out the performance of different model architectures
 
 ```mermaid
 graph TB
@@ -183,7 +183,7 @@ graph TB
 ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### [Model Preformance](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb)
+### [Model Performance](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb)
 
 These charts help evaluate the model by showing how predicted values compare to actual ones and revealing patterns in prediction errors. The "Predicted vs Actual" chart checks overall accuracy, while the "Predicted vs Residual" chart highlights patterns in errors. The histogram in "Normality of Residuals" assesses if errors follow a normal distribution, crucial for reliable predictions.
 
