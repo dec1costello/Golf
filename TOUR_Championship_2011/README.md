@@ -185,7 +185,7 @@ graph TB
 
 ### [Model Performance](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb)
 
-These charts help evaluate the model by showing how predicted values compare to actual ones and revealing patterns in prediction errors. The "Predicted vs Actual" chart checks overall accuracy, while the "Predicted vs Residual" chart highlights patterns in errors. The histogram in "Normality of Residuals" assesses if errors follow a normal distribution, crucial for reliable predictions.
+These charts help evaluate the model by showing how predicted values compare to actual ones and revealing patterns in prediction errors. The histogram "Normality of Residuals" below assesses if errors follow a normal distribution, crucial for reliable predictions.
 
 #### Key Insight
 
