@@ -44,7 +44,7 @@ Note that in this dataset, the PGA Championship differs from other tournaments i
 
 I analyze the data, focusing on feature engineering to understand, clean, and refine the dataset. This process guides model selection and validates assumptions, while also uncovering insights through visualization. By addressing data quality and recognizing patterns early on, I establish a solid foundation for the project. For instance, exploring strokes gained (SG) at the round, hole, and drive levels helps us make assumptions for building a model to examine SG on a shot-level basis later.
 
-### [SG per Round](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/StrokesGainedPerRound.ipynb)
+### SG per Round
 
 I analyze the Strokes Gained distribution for each round of the Championship, revealing player performance trends during the tournament. This examination on a round-by-round basis helps uncover patterns in golfers' strategies and identifies challenges posed by difficult pin locations on the course.
 
@@ -150,7 +150,7 @@ For model explainability, I utilized the [SHap library](https://shap.readthedocs
 </div>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### [Model Architecture](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb)
+### Model Architecture
 
 In Part 5, I explore the relationship between Distance to the Pin & Lie vs Strokes to hole out at the Tour Championship. I Ensemble the top  performing models together using a [Stack](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.StackingRegressor.html) to minimize [Bias](https://towardsdatascience.com/a-quickstart-guide-to-uprooting-model-bias-f4465c8e84bc) and [Variance](https://x.com/akshay_pachaar/status/1703757251474063861?s=20). This iterative process maximized predictive accuracy of Expected Strokes(xS).
 
