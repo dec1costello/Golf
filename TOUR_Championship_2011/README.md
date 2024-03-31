@@ -40,7 +40,7 @@ I hope to contribute meaningful insights to the golf community through this proj
 
 Note that in this dataset, the PGA Championship differs from other tournaments in that there's no second cut after the third round, ensuring all players compete in all four rounds. While player performance often declines in rounds 1 and 2 of most tournaments due to the cut's impact, we anticipate consistent performance across all rounds in this case because no players are cut. Additionally, it's important to acknowledge that the dataset lacks [data from the playoff that occured](https://www.youtube.com/watch?v=vRjNR1T81VE), which is crucial for understanding the tournament's conclusion. Furthermore, it is important to emphasize that landing in the rough in this dataset doesn't necessarily disadvantage a player. Despite the challenge it presents, the ball could still have a favorable lie, which might have been strategically chosen by the golfer.
 
-## [EDA](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/EDA.ipynb)
+## EDA
 
 I analyze the data, focusing on feature engineering to understand, clean, and refine the dataset. This process guides model selection and validates assumptions, while also uncovering insights through visualization. By addressing data quality and recognizing patterns early on, I establish a solid foundation for the project. For instance, exploring strokes gained (SG) at the round, hole, and drive levels helps us make assumptions for building a model to examine SG on a shot-level basis later.
 
@@ -60,7 +60,7 @@ I analyze the Strokes Gained distribution for each round of the Championship, re
 </div>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### [SG per Hole](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/ImprovedStrokesGainedPerRoundPerHole.ipynb)
+### SG per Hole
 
 In this analysis, I investigate the distribution of Strokes Gained for each hole of every round of the Championship. Notably, Mahan ties Haas in Strokes Gained on the 72nd hole, a significant moment in the tournament. However, [Haas ultimately secured victory in the playoffs!](https://www.espn.com/golf/leaderboard?tournamentId=917)
 
@@ -76,7 +76,7 @@ In this analysis, I investigate the distribution of Strokes Gained for each hole
 </div>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### [SG per Drive](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb)
+### SG per Drive
 
 In Part 4, I explore the distribution of Strokes Gained vs Driving Distance Gained (DG) and Driving Accuracy Gained (AG) for each drive of the Championship. Both DG and SG are normalized per hole before totalling. Happy to say my analysis aligns with [Data Golf's Course Fit Tool.](https://datagolf.com/course-fit-tool)
 
@@ -183,7 +183,7 @@ graph TB
 ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### [Model Performance](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb)
+### Model Performance
 
 These chart helps evaluate the model by showing how predicted values compare to actual ones and revealing patterns in prediction errors. The histogram "Normality of Residuals" below assesses if errors follow a normal distribution, crucial for reliable predictions.
 
@@ -202,7 +202,7 @@ These chart helps evaluate the model by showing how predicted values compare to 
 
 Now that we have a strokes gained stacked machine learning model for a shot per shot basis, implementing it is crucial for gaining valuable insights into golf performance. This model, built upon a foundation of comprehensive data analysis and predictive modeling, offers a multifaceted view of a golfer's gameplay. By harnessing various machine learning techniques, such as ensemble learning and feature importance analysis, the model can provide nuanced insights into performance trends, strengths, and areas for improvement. Utilizing the model post-training enables golf analysts, coaches, and players to extract actionable insights, optimize strategies, and refine skills. Ultimately, leveraging a strokes gained stacked ML model empowers stakeholders to make informed decisions, enhance performance, and drive success on the golf course.
 
-### [SG per Shot](https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/DGvsCG.ipynb)
+### SG per Shot
 
 Now that we have a reliable model, we can use it to identify a player's strengths and weaknesses by subtracting Expected Strokes (xS) from the result of each shot to give us true Strokes Gained (SG). This plot displays Baddeley's SG by shot type, providing a clear visualization of his performance across different lies and distances.
 
