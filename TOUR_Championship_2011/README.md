@@ -185,7 +185,7 @@ graph TB
 
 ### Model Performance
 
-These chart helps evaluate the model by showing how predicted values compare to actual ones and revealing patterns in prediction errors. The histogram "Normality of Residuals" below assesses if errors follow a normal distribution, crucial for reliable predictions.
+This chart helps evaluate the model by showing how predicted values compare to actual ones and revealing patterns in prediction errors. The histogram "Normality of Residuals" below assesses if errors follow a normal distribution, crucial for reliable predictions.
 
 #### Key Insight
 
