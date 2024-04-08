@@ -66,7 +66,7 @@ In this analysis, I investigate the distribution of Strokes Gained for each hole
 
 #### Key Insights
 
-* Player apprear to contiune to play relative to thier initial performance of round 1
+* Players appear to contiune to play relative to thier initial performance of round 1
 * Poorly performing players seem to completey give up come the back 9 of round 3
 
 <div align="center">
@@ -138,10 +138,11 @@ Model hyperparameterization plays a crucial role in optimizing machine learning 
 
 ### Model Explainability
 
-For model explainability, I utilized the [SHap library](https://shap.readthedocs.io/en/latest/example_notebooks/overviews/An%20introduction%20to%20explainable%20AI%20with%20Shapley%20values.html) to analyze the stack model's estimators and base models, offering insights into feature importance. However, to ensure a comprehensive analysis, I also delved into [Permutation importance](https://medium.com/@syoussefi600/permutation-importance-vs-impurity-based-feature-importance-1c1a8d027479) as an additional metric in the notebook. This approach allowed for a thorough examination of feature importance from different perspectives, enriching our understanding of the model's predictive behavior. Fianlly, I employed the [Lime library](https://github.com/marcotcr/lime)  to evaluate the complete stacking regressor's feature importance. Below, you'll find the SHap charts for both the putting and approach models using LGBMRegressor.
+For model explainability, I utilized the [SHap library](https://shap.readthedocs.io/en/latest/example_notebooks/overviews/An%20introduction%20to%20explainable%20AI%20with%20Shapley%20values.html) to analyze the stack model's estimators and base models, offering insights into feature importance. However, to ensure a comprehensive analysis, I also delved into [permutation importance](https://medium.com/@syoussefi600/permutation-importance-vs-impurity-based-feature-importance-1c1a8d027479) as an additional metric in the notebook. This approach allowed for a thorough examination of feature importance from different perspectives, enriching our understanding of the model's predictive behavior. Fianlly, I employed the [Lime library](https://github.com/marcotcr/lime)  to evaluate the complete stacking regressor's feature importance. Below, you'll find the SHap charts for both the putting and approach models using LGBMRegressor.
 
 #### Key Insight
 * Super surprised to see distance from edge matters more than distance to pin for putting, curious if this would be the case if I had a larger dataset
+* "Downhill Slope" and "Elevation Below Ball" are distinct features. Despite their seemingly similar nature, they are not the same. To confirm this, a pairwise correlation was done.
 
 <div align="center">
   <a href="https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb">
@@ -185,7 +186,7 @@ graph TB
 
 ### Model Performance
 
-This chart helps evaluate the model by showing how predicted values compare to actual ones and revealing patterns in prediction errors. The histogram "Normality of Residuals" below assesses if errors follow a normal distribution, crucial for reliable predictions.
+This chart helps evaluate the model by showing how predicted values compare to actual ones and revealing patterns in prediction errors. The histogram below assesses if errors follow a normal distribution, crucial for reliable predictions.
 
 #### Key Insight
 
