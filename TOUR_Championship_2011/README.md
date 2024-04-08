@@ -230,8 +230,10 @@ Now that we have a reliable model, we can use it to identify a player's strength
         - [ ] [Evidently](https://www.youtube.com/watch?v=L4Pv6ExBQPM)
         - [ ] [Whylogs](https://github.com/whylabs/whylogs)
 - [ ] Add External Data
+    - [ ] Player Course History
     - [ ] [Career Earnings](https://www.spotrac.com/pga/rankings/date/2011-01-01/2011-09-20/)
     - [ ] Biometrics
+    - [ ] Equitment
     - [ ] [Weather](https://www.wunderground.com/history/daily/KATL/date/2011-9-22)
 - [ ] Data Viz
     - [ ] [SG Distributions](https://baseballsavant.mlb.com/visuals/statcast-pitch-distribution)
