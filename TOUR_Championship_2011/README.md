@@ -193,7 +193,7 @@ This chart helps evaluate the model by showing how predicted values compare to a
 
 <div align="center">
   <a href="https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb">
-    <img src="https://github.com/dec1costello/Golf/assets/79241861/4a841542-1cba-46b4-bedd-e52a782a675b" alt="Event Scatter" style="width:100%">
+    <img src="https://github.com/dec1costello/Golf/assets/79241861/7b95ecab-a449-4770-a57e-eea884f1468b" alt="Event Scatter" style="width:100%">
   </a>
 </div>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
