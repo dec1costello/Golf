@@ -142,7 +142,7 @@ For model explainability, I utilized the [SHap library](https://shap.readthedocs
 
 #### Key Insight
 * Super surprised to see distance from edge matters more than distance to pin for putting, curious if this would be the case if I had a larger dataset
-* "Downhill Slope" and "Elevation Below Ball" are distinct features. Despite their seemingly similar nature, they are not the same. To confirm this, a pairwise correlation was done.
+* "Downhill Slope" and "Elevation Below Ball" are distinct features; Despite their seemingly similar title, they are not the same. To confirm this, a pairwise correlation was done
 
 <div align="center">
   <a href="https://nbviewer.org/github/dec1costello/Golf/blob/main/TOUR_Championship_2011/xSG.ipynb">
