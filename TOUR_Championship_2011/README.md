@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <p align="center">
-<img height="200" width="500" src="https://github.com/dec1costello/Golf/assets/79241861/f6f27eb6-5943-4e56-88b1-303248913ed1"/>
+<img height="150" width="800" src="https://github.com/dec1costello/Golf/assets/79241861/f6f27eb6-5943-4e56-88b1-303248913ed1"/>
 </p>
 
 <h1 align="center">TOUR Championship Analysis</h1>
