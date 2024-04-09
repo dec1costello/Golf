@@ -4,7 +4,7 @@
 <img height="200" width="500" src="https://github.com/dec1costello/Golf/assets/79241861/f6f27eb6-5943-4e56-88b1-303248913ed1"/>
 </p>
 
-<h1 align="center">2011 TOUR Championship</h1>
+<h1 align="center">TOUR Championship Analysis</h1>
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -39,6 +39,19 @@ Welcome to my analysis of the 2011 TOUR Championship at East Lake Golf Club, the
 > **Develop an expected strokes model to identify player performance**
 
 I hope to contribute meaningful insights to the golf community through this project. Although the 2011 TOUR Championship took place over a decade ago and the tournament's rules have since changed, its extensive shot-level dataset remains a valuable resource. If you happen to come across another complete shot-level dataset, I would greatly appreciate it if you could share it with me! I encourage you to check out the js visuals on [NBViewer!](https://nbviewer.org/github/dec1costello/Golf/tree/main/TOUR_Championship_2011/)
+
+## **Code Quality**
+
+![pre-commit](https://img.shields.io/badge/pre--commit-FAB040?style=flat-square&logo=pre-commit&logoColor=white)
+
+<div align="center">
+
+| Security Linter | Code Formatting | Type Checking | Code Linting |
+| --- | --- | --- | --- |
+| [`bandit`](https://github.com/PyCQA/bandit) | [`ruff-format`](https://github.com/astral-sh/ruff) | [`mypy`](https://github.com/python/mypy) | [`ruff`](https://github.com/astral-sh/ruff) |
+
+</div>
+
 
 ## **Dataset**
 
