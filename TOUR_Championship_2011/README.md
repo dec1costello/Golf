@@ -42,7 +42,7 @@ I hope to contribute meaningful insights to the golf community through this proj
 
 ## **Code Quality**
 
-![pre-commit](https://img.shields.io/badge/pre--commit-FAB040?style=flat-square&logo=pre-commit&logoColor=white)
+In this data science project, tools like a Security Linter, Code Formatting, Type Checking, and Code Linting are essential for ensuring code quality and robustness. These tools help identify and mitigate security vulnerabilities, maintain consistent coding styles, enforce type safety, and detect potential errors or issues early in the development process, ultimately enhancing the reliability and maintainability of the project.
 
 <div align="center">
 
@@ -123,6 +123,8 @@ While the training data is discrete, for continuous predictions, I faced the tas
 * The GradientBoostingRegressor and HistGradientBoostingRegressor models performed the best
 * If I were to have to constantly retrain the model I would avoid the MLPRegressor as it takes forever
 
+<div align="center">  
+
 | Model  | Adjusted R-Squared | R-Squared	| RMSE | Time Taken |
 |------------|------|------------|------|------|
 | GradientBoostingRegressor         | 0.85  | 0.85  | 0.46  | 0.93  |
@@ -137,6 +139,9 @@ While the training data is discrete, for continuous predictions, I faced the tas
 | NuSVR                             | 0.81  | 0.81     | 0.52  | 3.58  |
 | ExtraTreesRegressor	              | 0.80 | 0.80   | 0.53 | 2.02  |
 | SVR                               | 0.80 | 0.80   | 0.53 | 3.35  |
+
+</div>
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Model Hyper Parameterization
