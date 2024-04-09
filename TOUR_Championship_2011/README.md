@@ -6,18 +6,6 @@
 
 <h1 align="center">2011 TOUR Championship</h1>
 
-<p align="center">
-    <img src="https://img.shields.io/github/repo-size/digitalghost-dev/premier-league?style=flat-square&label=Repo%20Size&color=DEA584">
-</p>
-
-## **Objectives**
-
-Welcome to my analysis of the 2011 TOUR Championship at East Lake Golf Club, the primary objective of this project is to:
-
-> **Develop an expected strokes model to identify player performance**
-
-I hope to contribute meaningful insights to the golf community through this project. Although the 2011 TOUR Championship took place over a decade ago and the tournament's rules have since changed, its extensive shot-level dataset remains a valuable resource. If you happen to come across another complete shot-level dataset, I would greatly appreciate it if you could share it with me! I encourage you to check out the js visuals on [NBViewer!](https://nbviewer.org/github/dec1costello/Golf/tree/main/TOUR_Championship_2011/)
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -43,6 +31,14 @@ I hope to contribute meaningful insights to the golf community through this proj
     <li><a href="#Roadmap">Roadmap</a></li>
   </ol>
 </details>
+
+## **Objectives**
+
+Welcome to my analysis of the 2011 TOUR Championship at East Lake Golf Club, the primary objective of this project is to:
+
+> **Develop an expected strokes model to identify player performance**
+
+I hope to contribute meaningful insights to the golf community through this project. Although the 2011 TOUR Championship took place over a decade ago and the tournament's rules have since changed, its extensive shot-level dataset remains a valuable resource. If you happen to come across another complete shot-level dataset, I would greatly appreciate it if you could share it with me! I encourage you to check out the js visuals on [NBViewer!](https://nbviewer.org/github/dec1costello/Golf/tree/main/TOUR_Championship_2011/)
 
 ## **Dataset**
 
