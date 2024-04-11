@@ -245,7 +245,7 @@ Now that we have a reliable model, we can use it to identify a player's strength
 It was cool to combine my passions for data science and golf into this project, wish I knew about Strokes Gained back when I was a caddy! Hope to do more golf projects in the future.
 
 <p align="center">
-<img height="95" width="210" src="https://github.com/dec1costello/Golf/assets/79241861/0f9673d0-36c6-4d6f-928b-34d171a19350"/>
+<img height="63" width="139" src="https://github.com/dec1costello/Golf/assets/79241861/0f9673d0-36c6-4d6f-928b-34d171a19350"/>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -279,6 +279,6 @@ It was cool to combine my passions for data science and golf into this project, 
     - [ ] [Utilize](https://colab.research.google.com/github/AllenDowney/ThinkBayes2/)
 - [ ] Dockerize & Deploy
 <p align="center">
-<img height="400" width="100%" src="https://github.com/dec1costello/Golf/assets/79241861/506e2aa2-64e9-4383-83d9-d6e81f4dd5f7"/>
+<img height="400" width="1200" src="https://github.com/dec1costello/Golf/assets/79241861/506e2aa2-64e9-4383-83d9-d6e81f4dd5f7"/>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
