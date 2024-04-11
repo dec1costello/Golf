@@ -278,10 +278,7 @@ It was cool to combine my passions for data science and golf into this project, 
     - [ ] [Watch](https://www.youtube.com/watch?v=Zi6N3GLUJmw)
     - [ ] [Utilize](https://colab.research.google.com/github/AllenDowney/ThinkBayes2/)
 - [ ] Dockerize & Deploy
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 <p align="center">
 <img height="400" width="100%" src="https://github.com/dec1costello/Golf/assets/79241861/506e2aa2-64e9-4383-83d9-d6e81f4dd5f7"/>
 </p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
