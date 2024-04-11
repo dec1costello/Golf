@@ -28,7 +28,7 @@
     <li><a href="#Model-Performance">xS Model Performance</a></li>
     </ol>
     <li><a href="#SG-per-Shot">SG per Shot</a></li>
-    <li><a href="#SG-per-Location">SG per Location</a></li>
+    <li><a href="#Conclusion">Conclusion</a></li>
     <li><a href="#Roadmap">Roadmap</a></li>
   </ol>
 </details>
