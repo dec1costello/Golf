@@ -247,6 +247,8 @@ It was cool to combine my passions for data science and golf into this project, 
 <p align="center">
 <img height="95" width="210" src="https://github.com/dec1costello/Golf/assets/79241861/0f9673d0-36c6-4d6f-928b-34d171a19350"/>
 </p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- ROADMAP -->
 ## Future Roadmap
