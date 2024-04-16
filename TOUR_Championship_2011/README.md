@@ -55,7 +55,7 @@ In this data science project, tools like a Security Linter, Code Formatting, Typ
 
 ## **Dataset**
 
-Note that in this dataset, the PGA Championship differs from other tournaments in that there's no second cut after the third round, ensuring all players compete in all four rounds. While player performance often declines in rounds 1 and 2 of most tournaments due to the cut's impact, we anticipate consistent performance across all rounds in this case because no players are cut. Additionally, it's important to acknowledge that the dataset lacks [data from the playoff that occured](https://www.youtube.com/watch?v=vRjNR1T81VE), which is crucial for understanding the tournament's conclusion. Furthermore, it is important to emphasize that landing in the rough in this dataset doesn't necessarily disadvantage a player. Despite the challenge it presents, the ball could still have a favorable lie, which might have been strategically chosen by the golfer.
+Note that in this dataset, the TOUR Championship differs from other tournaments in that there's no second cut after the third round, ensuring all players compete in all four rounds. While player performance often declines in rounds 1 and 2 of most tournaments due to the cut's impact, we anticipate consistent performance across all rounds in this case because no players are cut. Additionally, it's important to acknowledge that the dataset lacks [data from the playoff that occured](https://www.youtube.com/watch?v=vRjNR1T81VE), which is crucial for understanding the tournament's conclusion. Furthermore, it is important to emphasize that landing in the rough in this dataset doesn't necessarily disadvantage a player. Despite the challenge it presents, the ball could still have a favorable lie, which might have been strategically chosen by the golfer.
 
 ## EDA
 
@@ -223,7 +223,7 @@ This chart helps evaluate the model by showing how predicted values compare to a
 
 ## Applying xS Model
 
-Now that we have a strokes gained stacked machine learning model for a shot per shot basis, implementing it is crucial for gaining valuable insights into golf performance. This model, built upon a foundation of comprehensive data analysis and predictive modeling, offers a multifaceted view of a golfer's gameplay. By harnessing various machine learning techniques, such as ensemble learning and feature importance analysis, the model can provide nuanced insights into performance trends, strengths, and areas for improvement. Utilizing the model post-training enables golf analysts, coaches, and players to extract actionable insights, optimize strategies, and refine skills. Ultimately, leveraging a strokes gained stacked ML model empowers stakeholders to make informed decisions, enhance performance, and drive success on the golf course.
+Now that we have a strokes gained stacked machine learning model for a shot per shot basis, implementing it is crucial for gaining valuable insights into golf performance. This model, built upon a foundation of comprehensive data analysis and predictive modeling, offers a multifaceted view of a golfer's gameplay. Utilizing the model post-training enables golf analysts, coaches, and players to extract actionable insights, optimize strategies, and refine skills. Ultimately, leveraging a strokes gained stacked ML model empowers stakeholders to make informed decisions, enhance performance, and drive success on the golf course.
 
 ### SG per Shot
 
