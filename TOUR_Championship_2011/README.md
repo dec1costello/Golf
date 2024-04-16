@@ -47,7 +47,7 @@ In this data science project, tools like a Security Linter, Code Formatting, Typ
 <div align="center">
 
 | Security Linter | Code Formatting | Type Checking | Code Linting |
-| --- | --- | --- | --- |
+| ------------------------------------------- | -------------------------------------------------- | ---------------------------------------- | ------------------------------------------- |
 | [`bandit`](https://github.com/PyCQA/bandit) | [`ruff-format`](https://github.com/astral-sh/ruff) | [`mypy`](https://github.com/python/mypy) | [`ruff`](https://github.com/astral-sh/ruff) |
 
 </div>
@@ -126,19 +126,19 @@ While the training data is discrete, for continuous predictions, I faced the tas
 <div align="center">  
 
 | Model  | Adjusted R-Squared | R-Squared	| RMSE | Time Taken |
-|------------|------|------------|------|------|
-| GradientBoostingRegressor         | 0.85  | 0.85  | 0.46  | 0.93  |
-| HistGradientBoostingRegressor     | 0.85  | 0.85     | 0.46  | 0.60  |
-| LGBMRegressor                     | 0.85 | 0.85   | 0.47 | 0.14  |
-| MLPRegressor                      | 0.84 | 0.84   | 0.48 | 5.23  |
-| KNeighborsRegressor               | 0.82  | 0.83  | 0.50  | 0.16  |
-| AdaBoostRegressor                 | 0.82  | 0.83     | 0.50  | 0.49  |
-| RandomForestRegressor             | 0.82 | 0.82   | 0.50 | 3.46  |
-| XGBRegressor                      | 0.82 | 0.82   | 0.50 | 0.24  |
-| BaggingRegressor                  | 0.81  | 0.81  | 0.52  | 0.37  |
-| NuSVR                             | 0.81  | 0.81     | 0.52  | 3.58  |
-| ExtraTreesRegressor	              | 0.80 | 0.80   | 0.53 | 2.02  |
-| SVR                               | 0.80 | 0.80   | 0.53 | 3.35  |
+|-----------------------------------|-------|--------|-------|-------|
+| GradientBoostingRegressor         | 0.85  | 0.85   | 0.46  | 0.93  |
+| HistGradientBoostingRegressor     | 0.85  | 0.85   | 0.46  | 0.60  |
+| LGBMRegressor                     | 0.85  | 0.85   | 0.47  | 0.14  |
+| MLPRegressor                      | 0.84  | 0.84   | 0.48  | 5.23  |
+| KNeighborsRegressor               | 0.82  | 0.83   | 0.50  | 0.16  |
+| AdaBoostRegressor                 | 0.82  | 0.83   | 0.50  | 0.49  |
+| RandomForestRegressor             | 0.82  | 0.82   | 0.50  | 3.46  |
+| XGBRegressor                      | 0.82  | 0.82   | 0.50  | 0.24  |
+| BaggingRegressor                  | 0.81  | 0.81   | 0.52  | 0.37  |
+| NuSVR                             | 0.81  | 0.81   | 0.52  | 3.58  |
+| ExtraTreesRegressor	              | 0.80  | 0.80   | 0.53  | 2.02  |
+| SVR                               | 0.80  | 0.80   | 0.53  | 3.35  |
 
 </div>
 
@@ -223,7 +223,7 @@ This chart helps evaluate the model by showing how predicted values compare to a
 
 ## Applying xS Model
 
-Now that we have a strokes gained stacked machine learning model for a shot per shot basis, implementing it is crucial for gaining valuable insights into golf performance. This model, built upon a foundation of comprehensive data analysis and predictive modeling, offers a multifaceted view of a golfer's gameplay. Utilizing the model post-training enables golf analysts, coaches, and players to extract actionable insights, optimize strategies, and refine skills. Ultimately, leveraging a strokes gained stacked ML model empowers stakeholders to make informed decisions, enhance performance, and drive success on the golf course.
+Now that we have a strokes gained stacked machine learning model for a shot per shot basis, implementing it is crucial for gaining valuable insights into golf performance. Utilizing the model post-training enables golf analysts, coaches, and players to extract actionable insights, optimize strategies, and refine skills. Ultimately, leveraging a strokes gained stacked ML model empowers stakeholders to make informed decisions, enhance performance, and drive success on the golf course.
 
 ### SG per Shot
 
