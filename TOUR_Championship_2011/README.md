@@ -35,7 +35,7 @@
 
 ## **Objectives**
 
-Welcome to my analysis of the 2011 TOUR Championship at East Lake Golf Club, the home course of legendary golfer [Bobby Jones](https://en.wikipedia.org/wiki/Bobby_Jones_(golfer)). The primary objective of this project is to:
+Welcome to my analysis of the 2011 TOUR Championship at East Lake Golf Club, the primary objective of this project is to:
 > **Develop an expected strokes model to identify player performance**
 
 I hope to contribute meaningful insights to the golf community through this project. Although the 2011 TOUR Championship took place over a decade ago and the tournament's rules have since changed, its extensive shot-level dataset remains a valuable resource. If you happen to come across another complete shot-level dataset, I would greatly appreciate it if you could share it with me! I encourage you to check out the js visuals on [NBViewer!](https://nbviewer.org/github/dec1costello/Golf/tree/main/TOUR_Championship_2011/)
@@ -55,7 +55,7 @@ In this data science project, tools like a Security Linter, Code Formatting, Typ
 
 ## **Dataset**
 
-Note that in this dataset, the TOUR Championship differs from other tournaments in that there's no second cut after the third round, ensuring all players compete in all four rounds. While player performance often declines in rounds 1 and 2 of most tournaments due to the cut's impact, we anticipate consistent performance across all rounds in this case because no players are cut. Additionally, it's important to acknowledge that the dataset lacks [data from the playoff that occured](https://www.youtube.com/watch?v=vRjNR1T81VE), which is crucial for understanding the tournament's conclusion. Furthermore, it is important to emphasize that landing in the rough in this dataset doesn't necessarily disadvantage a player. Despite the challenge it presents, the ball could still have a favorable lie, which might have been strategically chosen by the golfer.
+The TOUR Championship differs from other tournaments in that only the top 30 golfers compete and there's no cut after the second round, this ensures us consistent data of high skill-set golfers across all 4 rounds. The TOUR Championship takes place at East Lake Golf Club, which was the home course of legendary golfer [Bobby Jones](https://en.wikipedia.org/wiki/Bobby_Jones_(golfer)) making this dataset extra cool. Additionally, it's important to acknowledge that the dataset lacks [data from the playoff that occured](https://www.youtube.com/watch?v=vRjNR1T81VE), which is crucial for understanding the tournament's conclusion. Furthermore, it is important to emphasize that landing in the rough in this dataset doesn't necessarily disadvantage a player. Despite the challenge it presents, the ball could still have a favorable lie, which might have been strategically chosen by the golfer.
 
 ## EDA
 
