@@ -39,7 +39,22 @@ Welcome to my analysis of the 2011 TOUR Championship at East Lake Golf Club, the
 > **Develop an expected strokes model to identify player performance**
 
 I hope to contribute meaningful insights to the golf community through this project. Although the 2011 TOUR Championship took place over a decade ago and the tournament's rules have since changed, its extensive shot-level dataset remains a valuable resource. If you happen to come across another complete shot-level dataset, I would greatly appreciate it if you could share it with me! I encourage you to check out the js visuals on [NBViewer!](https://nbviewer.org/github/dec1costello/Golf/tree/main/TOUR_Championship_2011/)
-<br />
+
+## **Dataset**
+
+This dataset consists of shot level data from the PGA TOUR Championship. The TOUR Championship differs from other tournaments in that only the top 30 golfers compete and there's no cut after the second round, this ensures us consistent data of high skill golfers across all 4 rounds. The TOUR Championship usually switches locations every year so it is tough to get stats on how previous players did at this course, however this time around in 2011 it took place at East Lake Golf Club, which was the home course of legendary golfer [Bobby Jones](https://en.wikipedia.org/wiki/Bobby_Jones_(golfer)), making this dataset extra cool. Additionally, it's important to acknowledge that the dataset lacks [data from the playoff that occured](https://www.youtube.com/watch?v=vRjNR1T81VE), which is crucial for understanding the tournament's conclusion. Furthermore, it is important to emphasize that landing in the rough in this dataset doesn't necessarily disadvantage a player. Despite the challenge it presents, the ball could still have a favorable lie, which might have been strategically chosen by the golfer.
+
+## **Code Quality**
+
+In this project, a Security Linter, Code Formatting, Type Checking, and Code Linting are essential for ensuring code quality and robustness. These help identify and mitigate security vulnerabilities, maintain consistent coding styles, enforce type safety, and detect potential errors or issues early in the development process, ultimately enhancing the reliability and maintainability of the project.
+
+<div align="center">
+
+| Security Linter | Code Formatting | Type Checking | Code Linting |
+| ------------------------------------------- | -------------------------------------------------- | ---------------------------------------- | ------------------------------------------- |
+| [`bandit`](https://github.com/PyCQA/bandit) | [`ruff-format`](https://github.com/astral-sh/ruff) | [`mypy`](https://github.com/python/mypy) | [`ruff`](https://github.com/astral-sh/ruff) |
+
+</div>
 
 ## Tools
 
@@ -53,23 +68,6 @@ I hope to contribute meaningful insights to the golf community through this proj
 
 <br />
 <br />
-
-
-## **Code Quality**
-
-In this data science project, a Security Linter, Code Formatting, Type Checking, and Code Linting are essential for ensuring code quality and robustness. These help identify and mitigate security vulnerabilities, maintain consistent coding styles, enforce type safety, and detect potential errors or issues early in the development process, ultimately enhancing the reliability and maintainability of the project.
-
-<div align="center">
-
-| Security Linter | Code Formatting | Type Checking | Code Linting |
-| ------------------------------------------- | -------------------------------------------------- | ---------------------------------------- | ------------------------------------------- |
-| [`bandit`](https://github.com/PyCQA/bandit) | [`ruff-format`](https://github.com/astral-sh/ruff) | [`mypy`](https://github.com/python/mypy) | [`ruff`](https://github.com/astral-sh/ruff) |
-
-</div>
-
-## **Dataset**
-
-The TOUR Championship differs from other tournaments in that only the top 30 golfers compete and there's no cut after the second round, this ensures us consistent data of high skill golfers across all 4 rounds. The TOUR Championship usually switches locations every year so it is tough to get stats on how previous players did at this course, however this time around in 2011 it took place at East Lake Golf Club, which was the home course of legendary golfer [Bobby Jones](https://en.wikipedia.org/wiki/Bobby_Jones_(golfer)), making this dataset extra cool. Additionally, it's important to acknowledge that the dataset lacks [data from the playoff that occured](https://www.youtube.com/watch?v=vRjNR1T81VE), which is crucial for understanding the tournament's conclusion. Furthermore, it is important to emphasize that landing in the rough in this dataset doesn't necessarily disadvantage a player. Despite the challenge it presents, the ball could still have a favorable lie, which might have been strategically chosen by the golfer.
 
 ## EDA
 
