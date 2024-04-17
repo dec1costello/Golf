@@ -56,22 +56,15 @@ In this project, a Security Linter, Code Formatting, Type Checking, and Code Lin
 
 </div>
 
-## Tools
-
-<img align="left" alt="Python" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg" />
-<img align="left" alt="Visual Studio Code" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" style="padding-right:10px;"/>
-<img align="left" alt="mlflow" width="28px" style="padding-right:3px;" src="https://github.com/dec1costello/dec1costello/assets/79241861/a59fbc5a-f5ce-47a9-a903-c4e5bb0e2e65" />
-<img align="left" alt="scipi" width="32px" style="padding-right:3px;" src="https://github.com/dec1costello/Golf/assets/79241861/8c1b62d0-b4cb-46ba-82f0-a858508911ae" />
-<img align="left" alt="optuna" width="33px" style="padding-right:3px;" src="https://github.com/dec1costello/dec1costello/assets/79241861/3a709d6c-cd1e-4126-bd83-ff0f958f4609" />
-<img align="left" alt="bokeh" width="34px" style="padding-right:1px;" src="https://github.com/dec1costello/dec1costello/assets/79241861/bfbeaf3f-663e-4191-9e90-a70c322b0bd8" />
-<img align="left" alt="scikit_learn" width="55px" style="padding-right:3px;" src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" />
-
-<br />
-<br />
-
 ## EDA
 
 I analyze the data, focusing on feature engineering to understand, clean, and refine the dataset. This process guides model selection and validates assumptions, while also uncovering insights through visualization. By addressing data quality and recognizing patterns early on, I establish a solid foundation for the project. For instance, exploring strokes gained (SG) at the round, hole, and drive levels helps us make assumptions for building a model to examine SG on a shot-level basis later.
+
+<img align="left" alt="scipi" width="32px" style="padding-right:3px;" src="https://github.com/dec1costello/Golf/assets/79241861/8c1b62d0-b4cb-46ba-82f0-a858508911ae" />
+<img align="left" alt="bokeh" width="34px" style="padding-right:1px;" src="https://github.com/dec1costello/dec1costello/assets/79241861/bfbeaf3f-663e-4191-9e90-a70c322b0bd8" />
+
+<br />
+<br />
 
 ### SG per Round
 
@@ -125,6 +118,13 @@ In Part 4, I explore the distribution of Strokes Gained vs Driving Distance Gain
 ## Expected Strokes Model
 
 The Stacked Expected Strokes Model leverages the power of ensemble learning by combining predictions from multiple base models to enhance accuracy and robustness. Notably, I've developed separate models for putting and non-putting scenarios, utilizing different input features tailored to each situation. This approach allows for more precise predictions by optimizing the model's focus on specific aspects of gameplay, ultimately leading to improved performance and insights in golf analytics. Furthermore, this model will eventually enable a granular analysis of shot-by-shot strokes gained, a significant departure from previous hole-by-hole and round-by-round evaluations. By harnessing the Stacked Expected Strokes Model's predictive capabilities, I'll unlock the ability to evaluate each shot's impact on overall performance, offering unprecedented insights into golfer performance. Additionally, I'm unconcerned about data leakage since I'll be predicting continuous variables while training on discrete data, ensuring the model's integrity and effectiveness in real-world applications.
+
+<img align="left" alt="mlflow" width="28px" style="padding-right:3px;" src="https://github.com/dec1costello/dec1costello/assets/79241861/a59fbc5a-f5ce-47a9-a903-c4e5bb0e2e65" />
+<img align="left" alt="optuna" width="33px" style="padding-right:3px;" src="https://github.com/dec1costello/dec1costello/assets/79241861/3a709d6c-cd1e-4126-bd83-ff0f958f4609" />
+<img align="left" alt="scikit_learn" width="55px" style="padding-right:3px;" src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" />
+
+<br />
+<br />
 
 ### Model Selection
 
