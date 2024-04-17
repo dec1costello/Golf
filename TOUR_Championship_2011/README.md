@@ -59,7 +59,7 @@ I hope to contribute meaningful insights to the golf community through this proj
 
 In this data science project, a Security Linter, Code Formatting, Type Checking, and Code Linting are essential for ensuring code quality and robustness. These help identify and mitigate security vulnerabilities, maintain consistent coding styles, enforce type safety, and detect potential errors or issues early in the development process, ultimately enhancing the reliability and maintainability of the project.
 
-<div align="center">
+<div align="left">
 
 | Security Linter | Code Formatting | Type Checking | Code Linting |
 | ------------------------------------------- | -------------------------------------------------- | ---------------------------------------- | ------------------------------------------- |
