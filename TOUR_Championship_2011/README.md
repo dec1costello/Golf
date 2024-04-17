@@ -40,6 +40,17 @@ Welcome to my analysis of the 2011 TOUR Championship at East Lake Golf Club, the
 
 I hope to contribute meaningful insights to the golf community through this project. Although the 2011 TOUR Championship took place over a decade ago and the tournament's rules have since changed, its extensive shot-level dataset remains a valuable resource. If you happen to come across another complete shot-level dataset, I would greatly appreciate it if you could share it with me! I encourage you to check out the js visuals on [NBViewer!](https://nbviewer.org/github/dec1costello/Golf/tree/main/TOUR_Championship_2011/)
 
+## Languages & Tools
+
+<img align="left" alt="Python" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg" />
+<img align="left" alt="Visual Studio Code" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" style="padding-right:10px;"/>
+<img align="left" alt="scikit_learn" width="55px" style="padding-right:3px;" src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" />
+<img align="left" alt="bokeh" width="30px" style="padding-right:1px;" src="https://github.com/dec1costello/dec1costello/assets/79241861/bfbeaf3f-663e-4191-9e90-a70c322b0bd8" />
+
+
+<br />
+<br />
+
 ## **Code Quality**
 
 In this data science project, tools like a Security Linter, Code Formatting, Type Checking, and Code Linting are essential for ensuring code quality and robustness. These tools help identify and mitigate security vulnerabilities, maintain consistent coding styles, enforce type safety, and detect potential errors or issues early in the development process, ultimately enhancing the reliability and maintainability of the project.
@@ -51,7 +62,6 @@ In this data science project, tools like a Security Linter, Code Formatting, Typ
 | [`bandit`](https://github.com/PyCQA/bandit) | [`ruff-format`](https://github.com/astral-sh/ruff) | [`mypy`](https://github.com/python/mypy) | [`ruff`](https://github.com/astral-sh/ruff) |
 
 </div>
-
 
 ## **Dataset**
 
