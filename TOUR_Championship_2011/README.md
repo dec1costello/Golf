@@ -11,8 +11,8 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#Objectives">Objectives</a></li>
-    <li><a href="#Code-Quality">Code Quality</a></li>
     <li><a href="#Dataset">Dataset</a></li>
+    <li><a href="#Code-Quality">Code Quality</a></li>
     <li><a href="#EDA">EDA</a></li>
     <ol>
     <li><a href="#SG-per-Round">SG per Round</a></li>
