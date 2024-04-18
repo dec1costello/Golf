@@ -267,8 +267,8 @@ It was cool to combine my passions for data science and golf into this project, 
 - [ ] xS Stack Model Refinement
     - [x] Create seperate putting model
     - [ ] Model Registry
-        - [ ] [Refer To](https://medium.com/infer-qwak/building-an-end-to-end-mlops-pipeline-with-open-source-tools-d8bacbf4184f)
-        - [ ] [Watch](https://www.youtube.com/watch?v=-7XegzgjgM0&list=PLQqR_3C2fhUUkoXAcomOxcvfPwRn90U-g&index=8)
+        - [x] [Refer To](https://medium.com/infer-qwak/building-an-end-to-end-mlops-pipeline-with-open-source-tools-d8bacbf4184f)
+        - [x] [Watch](https://www.youtube.com/watch?v=-7XegzgjgM0&list=PLQqR_3C2fhUUkoXAcomOxcvfPwRn90U-g&index=8)
         - [ ] [Utilize](https://community.cloud.databricks.com/?o=5379878152283690)
     - [ ] Drift Detection
         - [ ] [Evidently](https://www.youtube.com/watch?v=L4Pv6ExBQPM)
@@ -288,8 +288,8 @@ It was cool to combine my passions for data science and golf into this project, 
     - [ ] [Lie & SG Plinko](https://baseballsavant.mlb.com/visuals/pitch-plinko)
     - [ ] [Drive KDE](https://baseballsavant.mlb.com/player-comparison)
 - [ ] Bayesian Integration
-    - [ ] [Refer To](https://colab.research.google.com/github/AllenDowney/ThinkBayes2/blob/master/examples/hockey.ipynb#scrollTo=B-c6bb9wO-Cs)
-    - [ ] [Watch](https://www.youtube.com/watch?v=Zi6N3GLUJmw)
+    - [x] [Refer To](https://colab.research.google.com/github/AllenDowney/ThinkBayes2/blob/master/examples/hockey.ipynb#scrollTo=B-c6bb9wO-Cs)
+    - [x] [Watch](https://www.youtube.com/watch?v=Zi6N3GLUJmw)
     - [ ] [Utilize](https://colab.research.google.com/github/AllenDowney/ThinkBayes2/)
 - [ ] Dockerize & Deploy
 <p align="center">
