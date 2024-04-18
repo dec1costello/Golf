@@ -266,13 +266,14 @@ It was cool to combine my passions for data science and golf into this project, 
 
 - [x] xS Stack Model Refinement
     - [x] Create seperate putting model
-    - [ ] MLFlow
+    - [ ] Model Registry
         - [ ] [Refer To](https://medium.com/infer-qwak/building-an-end-to-end-mlops-pipeline-with-open-source-tools-d8bacbf4184f)
         - [ ] [Watch](https://www.youtube.com/watch?v=-7XegzgjgM0&list=PLQqR_3C2fhUUkoXAcomOxcvfPwRn90U-g&index=8)
-        - [ ] [Utilize](https://community.cloud.databricks.com/?o=5379878152283690)  
+        - [ ] [Utilize](https://community.cloud.databricks.com/?o=5379878152283690)
     - [ ] Drift Detection
         - [ ] [Evidently](https://www.youtube.com/watch?v=L4Pv6ExBQPM)
         - [ ] [Whylogs](https://github.com/whylabs/whylogs)
+    - [ ] CI Orchestration
 - [ ] Add External Data
     - [ ] Player Course History
     - [ ] [Career Earnings](https://www.spotrac.com/pga/rankings/date/2011-01-01/2011-09-20/)
