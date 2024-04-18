@@ -274,6 +274,7 @@ It was cool to combine my passions for data science and golf into this project, 
         - [ ] [Evidently](https://www.youtube.com/watch?v=L4Pv6ExBQPM)
         - [ ] [Whylogs](https://github.com/whylabs/whylogs)
     - [ ] CI Orchestration
+        - [ ] [CML](https://cml.dev/)
 - [ ] Add External Data
     - [ ] Player Course History
     - [ ] [Career Earnings](https://www.spotrac.com/pga/rankings/date/2011-01-01/2011-09-20/)
