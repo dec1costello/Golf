@@ -264,7 +264,7 @@ It was cool to combine my passions for data science and golf into this project, 
 <!-- ROADMAP -->
 ## Future Roadmap
 
-- [x] xS Stack Model Refinement
+- [ ] xS Stack Model Refinement
     - [x] Create seperate putting model
     - [ ] Model Registry
         - [ ] [Refer To](https://medium.com/infer-qwak/building-an-end-to-end-mlops-pipeline-with-open-source-tools-d8bacbf4184f)
