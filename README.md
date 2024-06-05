@@ -2,10 +2,6 @@
 
 *Author: Declan Costello*
 
-## **[2011 TOUR Championship SG Analysis](https://github.com/dec1costello/Golf/tree/main/TOUR_Championship_2011)**
-
-- This project analyizes the trends of the 2011 TOUR Championship. The primary aspiration is to contribute meaningful insights to the golf community.
-
 ## **[Club Path Analysis](https://github.com/dec1costello/Golf/tree/main/Club_Path_Analysis)**
 
 - This project observes club path patterns.
